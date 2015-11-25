@@ -1,0 +1,331 @@
+#This file is English phrase verb file
+#Lines start with # are comments and will be ignored
+#This file is used to extract the check-point of S:PhrVerb in E2C task
+#The format is one English phrase per line.
+
+agree to
+agree with
+ask after
+ask in
+ask over
+back off
+be in
+be off
+bear on
+bear with
+beg off
+black out
+blame on
+blow up
+break down
+break off
+break up
+bring along
+bring down
+bring in
+bring up
+build up
+burst in with
+call down
+call in
+call off
+calm down
+carry on
+catch up
+check out
+check up
+clean down
+clean off
+clean up
+clear away
+close down
+close in
+close up
+come around
+come back
+come by
+come over
+cool down
+count on
+cut back
+cut out
+decide on
+die off
+dirty up
+do in
+do over
+do up
+do without
+draw near
+dress down
+drink up
+drive at
+drive on
+drop by
+drop in
+drop off
+dry out
+ease off
+eat up
+edge away
+end up
+enter into
+even out
+even up
+face up
+fall apart
+fall back on
+fall through
+fasten up
+feel for
+fight back
+fight down
+figure on
+figure out
+fill in
+fill in
+fill out
+fill up
+finish off
+finish up
+fit in
+fix up
+fly in
+fool around
+gather up
+get across
+get along with
+get at
+get back
+get back at
+get back to
+get by
+get down to
+get into
+get off
+get on
+get on with
+get out of
+get over
+get through
+get up
+give away
+give in
+give up
+glance over
+go after
+go along with
+go around
+go away
+go back
+go in
+go in for
+go off
+go off with
+go out
+go through
+go under
+go without
+hand down
+hand out
+hang around
+hang on
+hang up
+happen
+heal up
+hear out
+help out
+hide away
+hide out
+hit back
+hit on
+hit
+hold back
+hold on
+hold out
+hold up
+hurry on
+save up
+see through
+sell out
+send away for
+send for
+send over
+set in
+set up
+settle down
+shoot up
+show off
+sign in
+sign up for
+sit around
+sit down
+sit in on
+sit out
+sit up
+sleep in
+slim down
+slip up
+slow down
+smash into
+sober up
+speak up
+speak up for
+split up
+spread out
+stand around
+stand by
+stand in
+stand up
+start off
+start out
+start over
+start up
+stay over
+steal away
+step aside
+step up
+stick together
+stop by
+stop in
+stop over
+storm in
+storm out
+straighten out
+straighten up
+strip down
+sum up
+swell up
+switch off
+switch on
+take away
+take apart
+take in
+take off
+take over
+talk back
+talk out
+team up
+tear off
+tell off
+tell on
+think back
+think over
+think through
+think of
+think up
+throw up
+tidy up
+tool up
+trick into
+try out
+turn around
+turn down
+turn in
+turn in(to)
+turn off
+turn on
+turn up
+use up
+vote down
+wake up
+walk off
+walk out
+watch over
+watch out
+wear out
+wipe off
+work out
+work over
+write away for
+yell out
+zip up
+zoom in
+idle away
+insist on
+invite over
+jump in
+jump into
+keep at
+keep off
+keep on
+keep out
+keep out of
+knock off
+knock over
+lead up to
+leak out
+lean over
+leave out
+leave out of
+leave up to
+let down
+let on
+let up
+level off
+lie down
+light up
+lighten up
+line up
+live up to
+look back
+look in
+look out
+look for
+look up to
+loom up
+loosen up
+make out
+make out with
+make up
+march on
+mark down
+mark up
+mess up
+move in
+move into
+move off
+move on
+move out
+move up
+nail up
+open up
+order in
+pass away
+pass out
+pay off
+pay up
+pick up
+pile up
+plan out
+play along
+point out
+pop up
+power up
+pull in
+pull up
+put across to
+put on
+put off
+put up with
+quiet down
+raise up
+rattle off
+reach out
+read over
+rely on
+ride away
+ride out
+room together
+rub away
+rule on
+run around with
+run away
+run down
+run off
+run off with
+run over
+run on
+run out of
+rush in
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6 lazy " lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7 lazy " lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 lazy " lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9 lazy " lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+    
+<title>WoodPecker翻译评估系统</title>
+<link href="/staticfiles/templates/css/login3.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="wrapper">
+    <div id="header">
+    </div>
+
+    <div id="content">
+	    <div class="article">
+		    <h1>Login</h1>
+    	<form method="post">
+            <ul>
+                <li><label>Username</label></li>
+                <li>{{uf.username}}</li>
+                <li><label>Password</label></li>
+                <li>{{uf.password}}</li>
+            </ul> 
+
+	        <div class="item">
+	            <label>&nbsp;</label>
+                <input type="submit" value="Login" name="user_login" class="btn-submit" tabindex="5"/>
+	            <input type="button" value="Register" name="user_login" class="btn-submit" tabindex="5" onclick="javascript:location.href='/register/'"/>
+	        </div>
+	    </form>
+        {% if error %}                                                                                                                                                                                
+            <script>alert('{{error}}')</script>
+        {% endif %} 
+
+    </div>
+    <div class="logo3"></div>
+    </div>
+  
+    <div id="footer">
+	    <span id="icp" class="fleft gray-link">
+	        &copy; 2005－2014
+	    </span>
+	
+	    <span class="fright">
+	        <a href="about.htm" tppabs="#">About System</a>
+	    </span>
+    </div>
+    </div>
+</body>
+</html>
+
+

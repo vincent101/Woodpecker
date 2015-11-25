@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6 lazy " lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7 lazy " lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 lazy " lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9 lazy " lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+    
+<title>Register</title>
+<link href="/staticfiles/templates/css/login3.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="wrapper">
+    <div id="header">
+    </div>
+
+    <div id="content">
+        <div class="article">
+		    <h1>Register</h1>
+	    <form method="post">
+            <ul>
+	        <li><label>Username</label></li>
+	        <li>{{uf.username}}</li>
+            <li><label>Password</label></li>
+            <li>{{uf.password1}}</li>
+            <li><label>Type password again</label></li>
+            <li>{{uf.password2}}</li>
+            <li><label>Email</label></li>
+            <li>{{uf.email}}</li>
+            </ul>
+           <div style="margin:10px 0 0 30o;">
+	            <label>&nbsp;</label>
+                <input type="submit" value="Confirm" name="user_register" class="btn-submit" tabindex="5"/>
+	            <input type="button" value="Cancel" name="user_login" class="btn-submit" tabindex="5" onclick="javascript:location.href='/login/'"/>
+	        </div>
+	    </form>
+        {% if error %}
+            {% ifequal error 'successful.' %}                                                                                                                                                       
+                <script>alert("{{error}}"); window.location.href="/login/";</script>
+            {% else %}
+                <script>alert("{{error}}")</script>
+            {% endifequal %}
+        {% endif %}
+
+ 	    </div>
+    <div class="logo3" style="margin-top:30px;" ></div>
+    </div>
+  
+<div id="footer">
+	<span id="icp" class="fleft gray-link">
+	    &copy; 2005－2014
+	</span>
+	
+	<span class="fright">
+	    <a href="about.htm" tppabs="#">About System</a>
+	</span>
+  </div>
+
+</div>
+</body>
+</html>
+
+

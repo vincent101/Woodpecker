@@ -1,0 +1,22 @@
+<WP:ID>xx1</WP:ID><WP:Author>Guest</WP:Author><WP:Time>9/4/2008 2:41:50 PM</WP:Time><WP:Remark></WP:Remark>
+
+# This is the result file.
+<WP:ID></WP:ID><WP:Author></WP:Author><WP:Time></WP:Time><WP:Remark></WP:Remark>
+# GeneralScore                           :Score
+
+GeneralScore                             :0.75
+
+********************************************************************************************************************************************************************************************
+Feature Scores :
+
+# Single check-point                     ::Frequency                              ::Score
+
+F:T:Bleu                                 ::0                                      ::0.5814
+F:S:AmbiWord                             ::4                                      ::0.75
+
+********************************************************************************************************************************************************************************************
+Group Scores :
+
+# Group check-point                      ::Frequency                              ::Score                                  ::Hierachical information
+
+G:a                                      ::4                                      ::0.75                                   ::{T:Bleu;S:AmbiWord}

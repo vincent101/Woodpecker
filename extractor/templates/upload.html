@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Upload</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <link href="/staticfiles/templates/css/login3.css" rel="stylesheet" type="text/css">
+	<style type="">
+		.basic-input{
+			width: 200px; 
+			padding: 5px; 
+			height: 35px;
+		}
+		label{
+			width: 160px;
+		}
+		.wrapper{
+			margin: 50px 0 0 200px;
+		}
+		.item{
+			margin-bottom: 25px; 
+		}
+	</style>
+  </head>
+  
+  <body>
+<div class="wrapper">
+
+  <div id="content">
+	<form method="post" enctype="multipart/form-data">
+	    <div class="item">
+	        <label>InputFileName</label>
+            {{uf.inputFileName}}
+	    </div>
+	    <div class="item">
+	        <label>mode</label>
+            {{uf.mode}}
+	    </div>
+	    <div class="item">
+	        <label>align</label>
+            {{uf.align}}
+	    </div>
+	    <div class="item">
+	        <label>c</label>
+            {{uf.c}}
+	    </div>
+	    <div class="item">
+	        <label>c_Berk</label>
+            {{uf.c_Berk}}
+	    </div>
+	    <div class="item">
+	        <label>c_StanDep</label>
+            {{uf.c_StanDep}}
+	    </div>
+	    <div class="item">
+	        <label>c_StanTree</label>
+            {{uf.c_StanTree}}
+	    </div>
+	    <div class="item">
+	        <label>e</label>
+            {{uf.e}}
+	    </div>
+	    <div class="item">
+	        <label>e_Berk</label>
+            {{uf.e_Berk}}
+	    </div>
+	    <div class="item">
+	        <label>e_StanDep</label>
+            {{uf.e_StanDep}}
+	    </div>
+	    <div class="item">
+	        <label>e_StanTree</label>
+            {{uf.e_StanTree}}
+	    </div>
+	    <div class="item">
+	        <label>&nbsp;</label>
+	        <input type="submit" value="Upload" name="user_login" class="btn-submit" tabindex="5"/>
+            <input type="button" value="Cancel" name="user_login" class="btn-submit" tabindex="5"  onclick="javascript:location.href='/extractor/'"/>
+	    </div>
+	</form>
+    {% if error %}
+        {% ifequal error 'successful.' %}
+            <script>alert("{{error}}"); window.location.href="/extractor/";</script>
+        {% else %}
+            <script>alert("{{error}}")</script>
+        {% endifequal %}
+    {% endif %}
+  </div>
+  
+</div>
+  </body>
+</html>

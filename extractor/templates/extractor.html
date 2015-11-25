@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Extractor</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <link href="/staticfiles/templates/css/login3.css" rel="stylesheet" type="text/css">
+	<style type="">
+		.basic-input{
+			width: 200px; 
+			padding: 5px; 
+			height: 35px;
+		}
+		label{
+			width: 160px;
+		}
+		.wrapper{
+			margin: 150px 0 0 200px;
+		}
+		.item{
+			margin-bottom: 25px; 
+		}
+	</style>
+  </head>
+  
+  <body>
+<div class="wrapper">
+
+  <div id="content">
+	<form method="post">
+	    <div class="item">
+	        <label>Task Mode</label>
+            {{ef.mode}}
+	    </div>
+	    <div class="item">
+	        <label>Input File</label>
+            {{ef.input}}
+	    </div>
+		
+	    <div class="item">
+	        <label>&nbsp;</label>
+	        <a href="/download/">Download </a>
+	        <a href="/upload/">Or you can upload a sort of sample file.</a>
+	    </div>
+        
+	    <div class="item">
+	        <label>TestPointFileName</label>
+            {{ef.testPointFileName}}
+			
+	    </div>
+	    <div class="item">
+	        <label>&nbsp;</label>
+	        <input type="submit" value="Extract" name="user_login" class="btn-submit" tabindex="5"/>
+	    </div>
+	</form>
+    {% if error %}
+        {% ifequal error 'successful.' %}                               
+            <script>alert("{{error}}")</script>
+        {% else %}
+            <script>alert("{{error}}")</script>
+        {% endifequal %}
+    {% endif %}
+
+  </div>
+  
+</div>
+  </body>
+</html>

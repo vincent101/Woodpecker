@@ -1,0 +1,191 @@
+#This file is English Acronyms file
+#Lines start with # are comments and will be ignored
+#This file is used to extract the check-point of  S:Acro in E2C task
+#The format is: [English Acronym]::[English full name]::[Chinese translation]
+
+ACC::American Chamber of Commerce::美国商会
+AMEX::American Stock Exchange::美国股票交易所
+AA::American Airlines::美国航空
+AAA::American Automobile Association::美国汽车协会
+ACL::Association for Computational Linguistics::美国计算语言学会
+ALC::Application Layer Gateway::应用层网关
+BFS::Breadth-first search::宽度优先搜索
+CAAHB::Conference Against Atomic and Hydrogen Bombs::反原子弹氢弹会议
+CFG::Context-Free Grammar::上下文无关文法
+CUHK::The Chinese University of Hong Kong::香港中文大学
+EQ::emotional quotient::情商
+ESPN::Entertainment and Sports Programming Network::娱乐与体育电视网
+G8::Group of Eight::八国集团
+HIT::Harbin Institute of Technology::哈尔滨工业大学
+HKUST::Hong Kong University of Science and Technology::香港科技大学
+IAW::International Alliance of Women::国际妇女同盟
+IBA::International Bar Association::国际律师协会
+IC::ion chromatography::离子色谱
+ICPC::International Collegiate Programming Contest::国际大学生程序设计竞赛
+ICTP::International Centre for Theoretical Physics::国际理论物理中心
+IFS::International Foundation of Sciences::国际科学基金会
+IGC::International Geological Congress::国际地质大会
+IMC::International Music Council::国际音乐理事会
+IMSC::International Military Sports Council::国际军事体育理事会
+INDC::International Nuclear Data Committee::国际核数据委员会
+IPA::International Peace Academy::国际和平学会
+IRO::International Refugee Organization::国际难民组织
+IRU::International Relief Union::国际救济联合会
+ISC::International Seismological Centre::国际地震中心
+IUA::International Union of Architects::国际建筑师协会
+IUCW::International Union for Child Welfare::国际儿童福利联合会
+MCM::Mathematical Contest in Modeling::数学建模竞赛
+MRI::Manchester Royal Infirmary::曼彻斯特皇家医院
+MSRA::Microsoft Research Asia::微软亚洲研究院
+MST::Minimum Spanning Tree::最小生成树
+NCSU::North Carolina State University::北卡州立大学
+NLP::Natural Language Processing::自然语言处理
+NPU::Nordic Postal Union::北欧邮政联盟
+OOV::Out of Vocabulary::表外词
+PECC::Pacific Economic Cooperation Council::太平洋经济合作理事会
+SFC::supercritical fluid chromatography::超临界流体色谱
+SMT::statistical machine translation::统计机器翻译
+SVM::support vector machine::支持向量机
+TIA::Transient Ischemic Attack::短暂性脑缺血发作
+UA::United Airlines::美国联合航空公司
+UPS::United Parcel Service::联合包裹服务
+USC::University of Southern California::南加州大学
+USTC::University of Science and Technology of China::中国科学技术大学
+UTF::Unicode Transformation Format::联码转换格式
+ABR::Available Bit Rate::可用比特率
+CIO::Chief Information Officer::首席信息官
+CTO::Chief Technical Officer::首席技术官
+DHCP::Dynamic Host Configuration Protocol::动态主机配置协议
+E-mail::electronic mail::电子邮件
+EPS::Equipment Position Surcharges::设备位置附加费
+EU::European Union::欧洲联盟
+GSM::Global System for Mobile Communications::全球移动通讯系统
+HTTP::Hypertext Transport Protocol::超文本传输协议
+IT::Information Technology::信息技术
+MTD::Multimodal Transport Document::多式联运单据
+NAFTA::North American Free Trade Agreement::北美自由贸易协定
+abs::Antilock Braking System::防抱死刹车系统
+AFTA::Atlantic Free Trade Area::大西洋自由贸易区
+APCA::Air Pollution Control Administration::大气污染控制管理局
+APEC::Asia and Pacific Economic Cooperation::亚太经济合作组织
+CCTV::China Central Television::中国中央电视台
+IATA::International Air Transport Association::国际航空运输协会
+ICP::inductively coupled plasma::电感耦合等离子体
+IQ::Intelligence quotient::智商
+ISSN::international standard serial number::国际标准连续出版物号
+IWRA::International Water Resources Association::国际水资源协会
+MPA::master of public administration::公共管理硕士
+MST::Mountain Standard Time::山区标准时间
+NBA::National Basketball Association::国家篮球协会
+PA::Personal Assistant::私人助理
+PST::Pacific Standard Time::太平洋标准时间
+RAF::Royal Air Force::皇家空军
+UCLA::University of California at Los Angeles::加州大学洛杉矶分校
+USAF::United States Air Force::美国空军
+USMC::United States Marine Corps::美国海军陆战队
+WIDF::Women's International Democratic Federation::国际民主妇女联合会
+WMO::World Meteorological Organization::世界气象组织
+ABC::American Broadcasting Company::美国广播公司
+ACM::Association for Computing Machinery::美国计算机协会
+AI::Artificial Intelligence::人工智能
+AIDS::acquired immune deficiency syndrome::获得性免疫缺陷综合症
+ANSI::American National Standards Institute::美国国家标准协会
+ATM::Automated teller machine::自动柜员机
+BIOS::Basic Input Output System::基本输入输出系统
+DLL::Dynamic Link Library::动态链接库
+DNS::Domain name system::领域名称系统
+ERP::Enterprise Resource Planning::企业资源计划
+FBI::Federal Bureau of Investigation::联邦调查局
+FFT::Fast Fourier transform::快速傅立叶变换
+FTP::File Transfer Protocol::文件传输协议
+GATT::General Agreement on Tariffs and Trade::关税及贸易总协定
+GPS::Global positioning system::全球定位系统
+HTML::Hypertext Markup Language::超文本标记语言
+IBM::International Business Machines::国际商业机器
+ICBM::Intercontinental Ballistic Missile::洲际弹道导弹
+IMF::International Monetary Fund::国际货币基金组织
+IRA::Individual Retirement Account::个人退休帐户
+LED::Light Emitting Diode::发光二极管
+MFC::Microsoft Foundation Classes::微软基础类库
+NASA::National Aeronautics and Space Administration::国家航空航天管理局
+NATO::North Atlantic Treaty Organization::北大西洋公约组织
+NCAA::National Collegiate Athletic Association::全美大学生体育协会
+OAU::Organization of African Unity::非洲统一组织
+OECD::Organisation for Economic Co-operation and Development::经济合作与发展组织
+PDA::Personal Digital Assistant::个人数字助理
+SDK::Software Development Kit::软件开发工具包
+SMTP::Simple Mail Transfer Protocol::简单邮件传输协议
+SQL::Structured Query Language::结构化查询语言
+UN::United Nation::联合国
+UNCTAD::United Nations Conference on Trade and Development::联合国贸易与发展组织
+UNESCO::United Nations Educational, Scientific and Cultural Organization::联合国教科文组织
+UNICEF::United Nations Children's Fund::联合国儿童基金会
+WTO::World Trade Organization::世界贸易组织
+XML::Extensible Markup Language::可扩展标记语言
+ASU::Arizona State University::亚利桑那州立大学
+CMU::Carnegie Mellon University::卡内基梅隆大学
+DFA::Deterministic Finite Automaton::确定性有限自动机
+FT::Fourier transform::傅立叶变换
+HMM::Hidden Markov model::隐马尔可夫模型
+JHU::Johns Hopkins University::约翰霍普金斯大学
+IUJ::International Union of Judges::国际法官联合会
+MFA::Ministry of Foreign Affairs::外交部
+MND::Ministry of National Defence::国防部
+MS::mass spectrometer::质谱仪
+PICC::People's Insurance Company of China::中国人民保险公司
+CG::Computer Graphics::计算机图形学
+PLA::People's Liberation Army::人民解放军
+ISBN::international standard book number::国际标准书号
+TCP::Transmission Control Protocol::传输控制协议
+WIPO::World Intellectual Property Organization::世界知识产权组织
+CAAC::General Administration of Civil Aviation of China::中国民用航空总局
+CEO::Chief Executive Officer::首席执行官
+CIA::Central Intelligence Agency::中央情报局
+DNA::deoxyribonucleic acid::脱氧核糖核酸
+EEC::European Economic Community::欧洲经济共同体
+EMS::Express Mail Service::国际邮件快递服务
+EPA::Environmental Protection Agency::环境保护局
+ISO::International Standards Organization::国际标准化组织
+UFO::Unidentified flying object::不明飞行物
+WHO::World Health Organization::世界卫生组织
+BA::Bachelor of Arts::文学学士
+BEC::Business English Certificate::商务英语证书
+BIT::Beijing Institute of Technology::北京理工大学
+CAS::Commission of Atmospheric Sciences::大气科学委员会
+DHT::Distributed hash table::分布式哈希表
+EE::electrical engineer::电气工程师
+ESWC::Electronic Sports World Cup::电子竞技世界杯
+GDP::Gross domestic product::国内生产总值
+IRPA::International Radiation Protection Association::国际辐射防护协会
+WP::Warsaw Pact::华沙条约
+CD::compact disc::压缩光盘
+CID::Commission on International Development::国际开发委员会
+DDD::direct distance dialing::长途直接拨号
+HPLC::high performance liquid chromatography::高效液相色谱
+IAEA::International Atomic Energy Agency::国际原子能机构
+JPEG::Joint Photographic Experts Group::联合图像专家组
+MBA::Master of Business Administration::工商管理硕士
+MIT::Massachusetts Institute of Technology::麻省理工学院
+MVP::Most Valuable Player::最有价值球员
+SARS::Severe Acute Respiratory Syndrome::严重急性呼吸综合症
+API::Application Programming Interface::应用编程接口
+ASEAN::Association of South-East Asian Nations::东南亚国家联盟
+CPU::central processing unit::中央处理单元
+EFTA::European Free Trade Association::欧洲自由贸易联盟
+FAO::Food and Agriculture Organization::联合国粮食农业组织
+FAQ::Frequently Asked Questions::常见问题
+GAAP::Generally Accepted Accounting Principles::公认会计准则
+GMT::Greenwich Mean Time::格林威治标准时间
+IEEE::Institute of Electrical and Electronics Engineers::美国电气电子工程师学会
+OOP::Object-Oriented Programming::面向对象编程
+UNEP::United Nations Environment Programme::联合国环境规划署
+AES::atomic emission spectrometry::原子发射光谱法
+BWF::Broadcast Wave Format::播音波形格式
+CLR::Common Language Runtime::公用语言运行时
+GC::gas chromatography::气相色谱分析
+CAD::Computer-Aided Design::计算机辅助设计
+CFO::Chief Financial Officer::首席财务官
+ISP::Internet service provider::互联网服务提供商
+GPA::grade point average::平均成绩点数
+Ajax::Asynchronous Javascript and XML::异步JavaScript 和XML
+IDDD::international direct distance dialing::国际直接长途拨号

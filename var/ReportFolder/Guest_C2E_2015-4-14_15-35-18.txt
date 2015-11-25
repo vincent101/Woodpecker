@@ -1,0 +1,91 @@
+<WP:ID>Guest_C2E_2015-4-14_15-35-18</WP:ID><WP:Author>Guest</WP:Author><WP:Time>2015-4-14 15:35:18</WP:Time><WP:Remark></WP:Remark>
+
+# This is the result file.
+<WP:ID></WP:ID><WP:Author></WP:Author><WP:Time></WP:Time><WP:Remark></WP:Remark>
+# GeneralScore                           :Score
+
+GeneralScore                             :0.4398
+
+********************************************************************************************************************************************************************************************
+Feature Scores :
+
+# Single check-point                     ::Frequency                              ::Score
+
+F:T:Bleu                                 ::0                                      ::0.5826
+F:S:AmbiWord                             ::2                                      ::0.5
+F:S:NewWord                              ::0                                      ::-1
+F:S:Idiom                                ::0                                      ::-1
+F:S:OverLapWord                          ::0                                      ::-1
+F:S:Collocation                          ::1                                      ::1
+F:S:Noun                                 ::15                                     ::0.6364
+F:S:Verb                                 ::5                                      ::1
+F:S:Adj                                  ::1                                      ::1
+F:S:Prep                                 ::0                                      ::-1
+F:S:Adverb                               ::0                                      ::-1
+F:S:Pron                                 ::0                                      ::-1
+F:S:NP                                   ::3                                      ::0.4167
+F:S:VP                                   ::4                                      ::0.6176
+F:S:PP                                   ::0                                      ::-1
+F:S:QP                                   ::3                                      ::0.7353
+F:S:ADVP                                 ::0                                      ::-1
+F:S:ADJP                                 ::0                                      ::-1
+F:S:Locate_Phr                           ::1                                      ::0.6
+F:S:Sub_Predi                            ::0                                      ::-1
+F:S:Predi_Obj                            ::0                                      ::-1
+F:S:Predi_Comp                           ::0                                      ::-1
+F:S:Prep_Obj                             ::0                                      ::-1
+F:S:Adv_MOD                              ::0                                      ::-1
+F:S:Adj_MOD                              ::0                                      ::-1
+F:S:Noun_MOD                             ::0                                      ::-1
+F:S:Cons_Verb                            ::0                                      ::-1
+F:S:Pivot_Phrase                         ::0                                      ::-1
+F:T:Noun                                 ::90                                     ::0.6932
+F:T:Verb                                 ::6                                      ::0.1667
+F:T:Adj                                  ::28                                     ::0.2222
+F:T:Prep                                 ::41                                     ::0.7317
+F:T:Adverb                               ::4                                      ::1
+F:T:Pron                                 ::8                                      ::1
+F:T:Quantity                             ::32                                     ::0.9375
+F:T:AdjTrans                             ::4                                      ::0.75
+F:T:AdvTrans                             ::0                                      ::-1
+F:T:ModalVerb                            ::0                                      ::-1
+F:T:Article                              ::0                                      ::-1
+F:T:NP                                   ::77                                     ::0.4401
+F:T:VP                                   ::14                                     ::0.3475
+F:T:PP                                   ::26                                     ::0.4252
+F:T:QP                                   ::5                                      ::1
+F:T:ADVP                                 ::2                                      ::0.1538
+F:T:ADJP                                 ::0                                      ::-1
+F:T:WH_Prep_Phr                          ::0                                      ::-1
+F:T:WH_Adv_Phr                           ::0                                      ::-1
+F:T:WH_Noun_Phr                          ::0                                      ::-1
+F:T:CONJ_Phr                             ::0                                      ::-1
+F:T:Sub_Predi                            ::17                                     ::0.5349
+F:T:Predi_Obj                            ::14                                     ::0.4828
+F:T:Adv_MOD                              ::5                                      ::0.8182
+F:T:Adj_MOD                              ::39                                     ::0.4352
+F:T:Be_Predi                             ::0                                      ::-1
+F:S:BA_Sen                               ::0                                      ::-1
+F:S:BEI_Sen                              ::0                                      ::-1
+F:S:SHI_Sen                              ::0                                      ::-1
+F:S:YOU_Sen                              ::0                                      ::-1
+
+********************************************************************************************************************************************************************************************
+Group Scores :
+
+# Group check-point                      ::Frequency                              ::Score                                  ::Hierachical information
+
+G:Sentences                              ::0                                      ::-1                                     ::{S:BA_Sen;S:BEI_Sen;S:SHI_Sen;S:YOU_Sen}
+G:a                                      ::2                                      ::1                                      ::{S:Idiom;S:Collocation;S:Adj;S:Prep}
+G:Words                                  ::237                                    ::0.6611                                 ::{Source_Words;Target_Words}
+G:Source_Words                           ::24                                     ::0.7174                                 ::{Source_SpecialWords;Source_SubstanWords;Source_FunctionalWords}
+G:Source_SubstanWords                    ::21                                     ::0.7073                                 ::{S:Noun;S:Verb;S:Adj;S:Adverb;S:Pron}
+G:Source_SpecialWords                    ::3                                      ::0.8                                    ::{S:AmbiWord;S:NewWord;S:Idiom;S:OverLapWord;S:Collocation}
+G:Target_FunctionalWords                 ::41                                     ::0.7317                                 ::{T:Prep;T:ModalVerb;T:Article}
+G:Target_SubstanWords                    ::213                                    ::0.6598                                 ::{T:Noun;T:Verb;T:Adj;T:Prep;T:Adverb;T:Pron;T:Quantity;T:AdjTrans;T:AdvTrans}
+G:Target_Phrases                         ::199                                    ::0.4114                                 ::{T:NP;T:VP;T:PP;T:QP;T:ADVP;T:ADJP;T:WH_Prep_Phr;T:WH_Adv_Phr;T:WH_Noun_Phr;T:CONJ_Phr;T:Sub_Predi;T:Predi_Obj;T:Adv_MOD;T:Adj_MOD;T:Be_Predi}
+G:Source_FunctionalWords                 ::0                                      ::-1                                     ::{S:Prep}
+G:Phrases                                ::210                                    ::0.4126                                 ::{Source_Phrases;Target_Phrases}
+G:Target_Words                           ::213                                    ::0.6598                                 ::{Target_SubstanWords;Target_FunctionalWords}
+G:DefaultGroups                          ::447                                    ::0.4398                                 ::{Words;Phrases;Sentences;T:Bleu}
+G:Source_Phrases                         ::11                                     ::0.5877                                 ::{S:NP;S:VP;S:PP;S:QP;S:ADVP;S:ADJP;S:Locate_Phr;S:Sub_Predi;S:Predi_Obj;S:Predi_Comp;S:Prep_Obj;S:Adv_MOD;S:Adj_MOD;S:Noun_MOD;S:Cons_Verb;S:Pivot_Phrase}

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title> Register </title>
+		<meta name="generator" content="vimer.cn" />
+		<meta name="author" content="" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+	</head>
+
+	<body>
+        <form action='/register/' method="post" accept-charset="utf-8" >
+            {{uf.as_p}}
+            <p><input href="/login/" type="submit" value="Confirm"></p>
+        </form>
+        <a href="/login/">Cancel</a>
+        {% if error %}
+            {% ifequal error 'successful.' %}
+                <script>alert("{{error}}"); window.location.href="/login/";</script>
+            {% else %}
+                <script>alert("{{error}}")</script>
+            {% endifequal %}
+        {% endif %}    
+
+	</body>
+</html>
+

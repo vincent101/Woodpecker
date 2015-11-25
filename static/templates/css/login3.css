@@ -1,0 +1,74 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+
+/* Font,  Link & Container */
+body { font:12px/1.6 arial,helvetica,sans-serif;overflow: hidden;background-image: url("../image/bg.png"); }
+a:link { color:#369;text-decoration:none; }
+a:visited { color:#669;text-decoration:none; }
+a:hover { color:#fff;text-decoration:none;background:#039; }
+a:active { color:#fff;text-decoration:none;background:#f93; }
+button { cursor:pointer;line-height:1.2; }
+.mod { width:100%; }
+.hd:after, .bd:after, .ft:after, .mod:after {content:'\0020';display:block;clear:both;height:0; }
+.error-tip { margin-left:10px; }
+.error-tip, .error { color:#fe2617; }
+
+/* Layout */
+.wrapper { width:950px;margin:0 auto; }
+#header { padding-top:100px; }
+#content { min-height:400px;*height:400px; }
+#header, #content { margin-bottom:40px; }
+#header, #content, #footer { width:100%;overflow:hidden; }
+#footer { color:#999;padding-top:6px;border-top: 1px dashed #ddd; }
+.article { float:right;width:350px;padding-top: 50px;}
+.aside { float:right;width:310px;color:#666; }
+.aside li { padding-bottom: 20px; }
+
+/* header */
+.logo { float:left; width:215px;  height:30px; overflow:hidden; line-height:10em; background-image: url("../images/haiguan.png");  }
+h1 { color:#494949;display:block;font-size:25px;font-weight:bold;line-height:1.1;text-align:center;padding:0 0 30px;word-wrap:break-word; }
+
+/* form */
+ul{padding:0 50px;}
+ul li{margin:10px 0;width:270px;height:25px;text-align:right;}
+ul li input{padding:5px 0;width:140px;}
+.item { clear:both;margin:15px 0;zoom:1; }
+label { color:#494949;display: inline-block; float:left; margin-right: 15px; text-align: right; font-size: 14px; line-height: 30px; vertical-align: baseline }
+.remember { cursor: pointer; font-size: 12px; display: inline; width: auto; text-align: left; float: none; margin: 0; color: #666 }
+.item-captcha input,
+input,select { width: 200px; padding: 5px; vertical-align:middle; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #c9c9c9 }
+select{height:27px;}
+.item-captcha input:focus,
+input:focus { border: 1px solid #a9a9a9 }
+.item-captcha input { width:100px; }
+.item-captcha .pl { color:#666; }
+.btn-submit {width:120px; cursor: pointer;color: #ffffff;background: #2980B9; border: 1px solid #528641; font-size: 14px; font-weight: bold; padding:6px 26px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; *width: 100px;*height:30px; }
+.btn-submit:hover { background-color:#2980B9;border-color:#3498DB; }
+.btn-submit:active { background-color:#2980B9;border-color:#3498DB; }
+
+.logo3{float: left; height: 220px;width: 500px;background-image: url('../image/image01.png');background-size:cover;}
+/* footer */
+.fright { float:right; }
+.icp { float:left; }
+
+.welcome{margin:100px 50px;}
+.welcome h2{font-size:28px;}
+.welcome p,li{font-size:20px;padding:5px 0;}
+.welcome li{padding-left:10px;}
+
+
+
+
+
+
+
+
+

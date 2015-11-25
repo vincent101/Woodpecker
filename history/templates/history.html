@@ -1,0 +1,1754 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title> history </title>
+       <link rel="stylesheet" href="/staticfiles/templates/css/history.css" type="text/css"> 
+	   <style>
+	   #datatable{
+		   float:left;
+           display:none;
+	   }
+	   table tr td{
+		   padding:10px;
+	   }
+	   </style>
+	   
+        <script src="/staticfiles/templates/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/staticfiles/templates/js/highcharts.js" type="text/javascript"></script>
+        <script src="/staticfiles/templates/js/modules/exporting.js"></script>
+        <script src="/staticfiles/templates/js/modules/data.js"></script>
+        <!--<script type="text/javascript">-->
+        <!--$(document).ready(function(){-->
+        <!--}); -->
+        <!--</script>-->
+        <script language="javascript">
+            function checkSelection(){
+				document.getElementById('container').style.display = '';
+				document.getElementById('moreContainerAll').style.display = 'none';
+                var tab = document.getElementsByName('datatable')[0];
+                var trs = tab.rows;
+                <!--//d调用前先将表格隐藏 开始-->
+                for(var j=0;j<tab.rows[0].cells.length;j++){
+                    for(var i = 0, len = trs.length; i < len; i++){
+                          var cell = trs[i].cells[j];            
+                            cell.style.display = 'none';
+                    }
+                }
+                <!--//d调用前先将表格隐藏 结束-->
+                document.getElementById("datatable").style.display='block';
+                var r=document.getElementsByName("r"); 
+                for(var i=0;i<r.length;i++){
+                    if(r[i].checked){
+                        for(var j = 0, len = trs.length; j < len; j++){
+                                var cell = trs[j].cells[0];
+                                  cell.style.display = '';
+                        }
+                        for(var j = 0, len = trs.length; j < len; j++){
+                                var cell = trs[j].cells[r[i].value];	
+                                          cell.style.display = '';	
+                        }
+                    }
+                }     
+
+            $('#container').highcharts({
+                data: {
+                    table: document.getElementById('datatable')
+                },
+                chart: {
+                    type: 'bar',
+					backgroundColor: 'rgba(0,0,0,0)'
+				},
+                title: {
+                    text: 'Result in bar'
+                },
+				xAxis: {
+
+				            labels: {
+				                enabled: false
+				            }
+				},
+                yAxis: {
+                    allowDecimals: false,
+                    max: 1,
+                    title: {
+                        text: 'Units'
+                    }
+                },
+                tooltip: {
+                    formatter: function() {
+                        return '<b>'+ this.series.name +'</b><br/>'+
+                            <!--this.y +' '+ this.x;-->
+                            this.y +' ';
+                    }
+                }
+            });
+            }
+        </script>
+        <script language="javascript">
+        function more(){
+			document.getElementById('moreContainerAll').style.display = '';
+			document.getElementById('datatable').style.display = '';
+			
+			document.getElementById('container').style.display = 'none';
+        var chart;
+        
+        // Build the chart1 of c2e of more
+        $('#moreContainerC2E1').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                backgroundColor: 'rgba(0,0,0,0)'
+            },
+            title: {
+                text: 'ev_c2e01 Error Analysis'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+			legend:{
+				enabled:false
+			},
+            series: [{
+                type: 'pie',
+                name: 'Counts',
+                data: [
+['T_Bleu',  0.54],
+['S_AmbiWord',  0],
+['S_NewWord',  0],
+['S_Idiom',  0],
+['S_OverLapWord',  0],
+['S_Collocation ',  0],
+['S_Noun',  2.93],
+['S_Verb',  0],
+['S_Adj',  0],
+['S_Prep',  0],
+['S_Adverb',  0],
+['S_Pron',  0],
+['S_NP',  0.94],
+['S_VP',  0.82],
+['S_PP',  0],
+['S_QP',  0.43],
+['S_ADVP',  0],
+['S_ADJP',  0],
+['S_Locate_Phr',  0.21],
+['S_Sub_Predi',  0],
+['S_Predi_Obj',  0],
+['S_Predi_Comp',  0],
+['S_Prep_Obj',  0],
+['S_Adv_MOD',  0],
+['S_Adj_MOD',  0],
+['S_Noun_MOD',  0],
+['S_Cons_Verb',  0],
+['S_Pivot_Phrase',  0],
+['T_Noun',  14.82],
+['T_Verb',  2.68],
+['T_Adj',  11.69],
+['T_Prep',  5.91],
+['T_Adverb',  0],
+['T_Pron',  0],
+['T_Quantity',  1.07],
+['T_AdjTrans',  0.54],
+['T_AdvTrans',  0],
+['T_ModalVerb',  0],
+['T_Article',  0],
+['T_NP',  24.14],
+['T_VP',  4.9],
+['T_PP',  8.02],
+['T_QP',  0],
+['T_ADVP',  0.91],
+['T_ADJP',  0],
+['T_WH_Prep_Phr',  0],
+['T_WH_Adv_Phr',  0],
+['T_WH_Noun_Phr',  0],
+['T_CONJ_Phr',  0],
+['T_Sub_Predi',  4.24],
+['T_Predi_Obj',  3.89],
+['T_Adv_MOD',  0.49],
+['T_Adj_MOD',  11.82],
+['T_Be_Predi',  0],
+['S_BA_Sen',  0],
+['S_BEI_Sen',  0],
+['S_SHI_Sen',  0],
+['S_YOU_Sen',  0]
+                ]
+            }]
+        });
+        // Build the chart2 of c2e of more
+        $('#moreContainerC2E2').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                backgroundColor: 'rgba(0,0,0,0)'
+            },
+            title: {
+                text: 'ev_c2e01 Check-point Distribution Analysis'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+			legend:{
+				enabled:false
+			},
+            series: [{
+                type: 'pie',
+                name: 'Counts',
+                data: [
+['S_AmbiWord',  0.45],
+['S_NewWord',  0],
+['S_Idiom',  0],
+['S_OverLapWord',  0],
+['S_Collocation ',  0.22],
+['S_Noun',  3.36],
+['S_Verb',  1.12],
+['S_Adj',  0.22],
+['S_Prep',  0],
+['S_Adverb',  0],
+['S_Pron',  0],
+['S_NP',  0.67],
+['S_VP',  0.89],
+['S_PP',  0],
+['S_QP',  0.67],
+['S_ADVP',  0],
+['S_ADJP',  0],
+['S_Locate_Phr',  0.22],
+['S_Sub_Predi',  0],
+['S_Predi_Obj',  0],
+['S_Predi_Comp',  0],
+['S_Prep_Obj',  0],
+['S_Adv_MOD',  0],
+['S_Adj_MOD',  0],
+['S_Noun_MOD',  0],
+['S_Cons_Verb',  0],
+['S_Pivot_Phrase',  0],
+['T_Noun',  20.13],
+['T_Verb',  1.34],
+['T_Adj',  6.26],
+['T_Prep',  9.17],
+['T_Adverb',  0.89],
+['T_Pron',  1.79],
+['T_Quantity',  7.16],
+['T_AdjTrans',  0.89],
+['T_AdvTrans',  0],
+['T_ModalVerb',  0],
+['T_Article',  0],
+['T_NP',  17.23],
+['T_VP',  3.13],
+['T_PP',  5.82],
+['T_QP',  1.2],
+['T_ADVP',  0.45],
+['T_ADJP',  0],
+['T_WH_Prep_Phr',  0],
+['T_WH_Adv_Phr',  0],
+['T_WH_Noun_Phr',  0],
+['T_CONJ_Phr',  0],
+['T_Sub_Predi',  3.8],
+['T_Predi_Obj',  3.13],
+['T_Adv_MOD',  1.12],
+['T_Adj_MOD',  8.72],
+['T_Be_Predi',  0],
+['S_BA_Sen',  0],
+['S_BEI_Sen',  0],
+['S_SHI_Sen',  0],
+['S_YOU_Sen',  0]
+                ]
+            }]
+        });
+        // Build the chart1 of e2C of more
+        $('#moreContainerE2C1').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                backgroundColor: 'rgba(0,0,0,0)'
+            },
+            title: {
+                text: 'ev_e2c01 Error Analysis'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+			legend:{
+				enabled:false
+			},
+            series: [{
+                type: 'pie',
+                name: 'Counts',
+                data: [
+['S_Collocation ',  0.35],
+['S_Noun',  6.21],
+['S_Verb',  0.69],
+['S_Adj',  0.64],
+['S_Adverb',  0],
+['S_Pron',  0],
+['S_NP',  2.84],
+['S_VP',  0.85],
+['S_PP',  1.24],
+['S_QP',  0],
+['S_ADVP',  0],
+['S_ADJP',  0],
+['S_Sub_Predi',  0],
+['S_Predi_Obj',  0.48],
+['S_Adv_MOD',  0],
+['S_Adj_MOD',  0],
+['T_Noun',  19.45],
+['T_Verb',  7.2],
+['T_Adj',  0],
+['T_Prep',  0.52],
+['T_Adverb',  1.04],
+['T_Pron',  1.04],
+['T_Quantity',  1.42],
+['T_NP',  6.08],
+['T_VP',  7.86],
+['T_PP',  2.22],
+['T_QP',  2.84],
+['T_ADVP',  0],
+['T_ADJP',  0],
+['T_Sub_Predi',  5.87],
+['T_Predi_Obj',  6.7],
+['T_Adv_MOD',  4.41],
+['T_Adj_MOD',  0.27],
+['S_DicPrep',  0],
+['S_Acro',  0],
+['S_MWE',  0],
+['S_PhrVerb',  0],
+['S_Hyperbaton',  0],
+['S_AdjTrans',  0],
+['s_AdvTrans',  0],
+['S_WH_Prep_Phr',  0],
+['S_WH_Adv_Phr',  0],
+['S_WH_Noun_Phr',  0],
+['S_CONJ_Phr',  0],
+['S_Be_Predi',  0],
+['T_Measure',  6.28],
+['T_Locate_Phr',  1.29],
+['T_Predi_Comp',  0],
+['T_Prep_Obj',  0.88],
+['T_Noun_MOD',  11.02],
+['S_NormalPresentTense',  0],
+['S_PostFutureTense',  0],
+['S_FutureTense',  0],
+['S_NormalPostTense',  0.33],
+['S_PresentCompleteTense',  0],
+['S_PostCompleteTense',  0],
+['S_FutureCompleteTense',  0],
+['S_PostFutureCompleteTense',  0],
+['S_PresentDoingTense',  0],
+['S_PostDoingTense',  0],
+['S_FutureDoingTense',  0],
+['S_PostFutureDoingTense',  0],
+['S_PresentCompleteDoingTense',  0],
+['S_PostCompleteDoingTense',  0],
+['S_FutureCompleteDoingTense',  0],
+['S_PostFutureCompleteDoingTense',  0],
+['S_NormalPresentTense_NOT',  0],
+['S_PostFutureTense_NOT',  0],
+['S_FutureTense_NOT',  0],
+['S_NormalPostTense_NOT',  0],
+['S_PresentCompleteTense_NOT',  0],
+['S_PostCompleteTense_NOT',  0],
+['S_FutureCompleteTense_NOT',  0],
+['S_PostFutureCompleteTense_NOT',  0],
+['S_PresentDoingTense_NOT',  0],
+['S_PostDoingTense',  0],
+['S_FutureDoingTense',  0],
+['S_PostFutureDoingTense_NOT',  0],
+['S_PresentCompleteDoingTense_NOT',  0],
+['S_PostCompleteDoingTense_NOT',  0],
+['S_FutureCompleteDoingTense_NOT',  0],
+['S_PostFutureCompleteDoingTense_NOT',  0],
+['S_WhenClause',  0],
+['S_WheneverClause',  0],
+['S_WhileClause',  0],
+['S_BeforeClause',  0],
+['S_AfterClause',  0],
+['S_UntilClause',  0],
+['S_TillClause',  0],
+['S_ByTheTimeClause',  0],
+['S_AsSoonAsClause',  0],
+['S_Hardly_WhenClause',  0],
+['S_NoSooner_ThanClause',  0],
+['S_TheMomentClause',  0],
+['S_TheMinuteClause',  0],
+['S_ImmediatelyClause',  0],
+['S_DirectlyClause',  0],
+['S_InstantlyClause',  0],
+['S_BcauseClause',  0],
+['S_SinceClause',  0],
+['S_NotThatClause',  0],
+['S_IfClause',  0],
+['S_UnlessClause',  0],
+['S_InCaseClause',  0],
+['S_AsLongAsClause',  0],
+['S_SoThatClause',  0],
+['S_InOrderThatClause',  0],
+['S_ForFearThatClause',  0],
+['S_So_ThatClause',  0],
+['S_Such_ThatClause',  0],
+['S_ThanClause',  0],
+['S_As_AsClause',  0],
+['S_So_AsClause',  0],
+['S_As_IfClause',  0],
+['S_AsThoughClause',  0],
+['S_ThoughClause',  0],
+['S_AlthoughClause',  0],
+['S_EvenIfClause',  0],
+['S_EvenThough',  0],
+['S_NoMatterWhatClause',  0],
+['S_WhatEverClause',  0],
+['S_NoMatterWhoClause',  0],
+['S_WhoeverClause',  0],
+['S_NoMatterWhichClause',  0],
+['S_WhicheverClause',  0],
+['S_NoMatterHowClause',  0],
+['S_HoweverClause',  0],
+['S_NoMatterWhenClause',  0],
+                ]
+            }]
+        });
+        // Build the chart2 of e2C of more
+        $('#moreContainerE2C2').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                backgroundColor: 'rgba(0,0,0,0)'
+            },
+            title: {
+                text: 'ev_e2c01 Check-point Distribution Analysis'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+			legend:{
+				enabled:false
+			},
+            series: [{
+                type: 'pie',
+                name: 'Counts',
+                data: [
+['S_Collocation ',  0.38],
+['S_Noun',  7.98],
+['S_Verb',  0.76],
+['S_Adj',  0.76],
+['S_Adverb',  0],
+['S_Pron',  0],
+['S_NP',  3.04],
+['S_VP',  0.76],
+['S_PP',  1.14],
+['S_QP',  0],
+['S_ADVP',  0],
+['S_ADJP',  0],
+['S_Sub_Predi',  0],
+['S_Predi_Obj',  0.38],
+['S_Adv_MOD',  0],
+['S_Adj_MOD',  0],
+['T_Noun',  22.81],
+['T_Verb',  6.46],
+['T_Adj',  0],
+['T_Prep',  1.9],
+['T_Adverb',  0.76],
+['T_Pron',  0.76],
+['T_Quantity',  1.14],
+['T_NP',  5.7],
+['T_VP',  6.46],
+['T_PP',  1.9],
+['T_QP',  2.28],
+['T_ADVP',  0],
+['T_ADJP',  0],
+['T_Sub_Predi',  5.7],
+['T_Predi_Obj',  6.08],
+['T_Adv_MOD',  3.42],
+['T_Adj_MOD',  0.38],
+['S_DicPrep',  0],
+['S_Acro',  0],
+['S_MWE',  0],
+['S_PhrVerb',  0],
+['S_Hyperbaton',  0],
+['S_AdjTrans',  0],
+['s_AdvTrans',  0],
+['S_WH_Prep_Phr',  0],
+['S_WH_Adv_Phr',  0],
+['S_WH_Noun_Phr',  0],
+['S_CONJ_Phr',  0],
+['S_Be_Predi',  0],
+['T_Measure',  4.94],
+['T_Locate_Phr',  1.14],
+['T_Predi_Comp',  0],
+['T_Prep_Obj',  0.76],
+['T_Noun_MOD',  11.79],
+['S_NormalPresentTense',  0],
+['S_PostFutureTense',  0],
+['S_FutureTense',  0],
+['S_NormalPostTense',  0.38],
+['S_PresentCompleteTense',  0],
+['S_PostCompleteTense',  0],
+['S_FutureCompleteTense',  0],
+['S_PostFutureCompleteTense',  0],
+['S_PresentDoingTense',  0],
+['S_PostDoingTense',  0],
+['S_FutureDoingTense',  0],
+['S_PostFutureDoingTense',  0],
+['S_PresentCompleteDoingTense',  0],
+['S_PostCompleteDoingTense',  0],
+['S_FutureCompleteDoingTense',  0],
+['S_PostFutureCompleteDoingTense',  0],
+['S_NormalPresentTense_NOT',  0],
+['S_PostFutureTense_NOT',  0],
+['S_FutureTense_NOT',  0],
+['S_NormalPostTense_NOT',  0],
+['S_PresentCompleteTense_NOT',  0],
+['S_PostCompleteTense_NOT',  0],
+['S_FutureCompleteTense_NOT',  0],
+['S_PostFutureCompleteTense_NOT',  0],
+['S_PresentDoingTense_NOT',  0],
+['S_PostDoingTense',  0],
+['S_FutureDoingTense',  0],
+['S_PostFutureDoingTense_NOT',  0],
+['S_PresentCompleteDoingTense_NOT',  0],
+['S_PostCompleteDoingTense_NOT',  0],
+['S_FutureCompleteDoingTense_NOT',  0],
+['S_PostFutureCompleteDoingTense_NOT',  0],
+['S_WhenClause',  0],
+['S_WheneverClause',  0],
+['S_WhileClause',  0],
+['S_BeforeClause',  0],
+['S_AfterClause',  0],
+['S_UntilClause',  0],
+['S_TillClause',  0],
+['S_ByTheTimeClause',  0],
+['S_AsSoonAsClause',  0],
+['S_Hardly_WhenClause',  0],
+['S_NoSooner_ThanClause',  0],
+['S_TheMomentClause',  0],
+['S_TheMinuteClause',  0],
+['S_ImmediatelyClause',  0],
+['S_DirectlyClause',  0],
+['S_InstantlyClause',  0],
+['S_BcauseClause',  0],
+['S_SinceClause',  0],
+['S_NotThatClause',  0],
+['S_IfClause',  0],
+['S_UnlessClause',  0],
+['S_InCaseClause',  0],
+['S_AsLongAsClause',  0],
+['S_SoThatClause',  0],
+['S_InOrderThatClause',  0],
+['S_ForFearThatClause',  0],
+['S_So_ThatClause',  0],
+['S_Such_ThatClause',  0],
+['S_ThanClause',  0],
+['S_As_AsClause',  0],
+['S_So_AsClause',  0],
+['S_As_IfClause',  0],
+['S_AsThoughClause',  0],
+['S_ThoughClause',  0],
+['S_AlthoughClause',  0],
+['S_EvenIfClause',  0],
+['S_EvenThough',  0],
+['S_NoMatterWhatClause',  0],
+['S_WhatEverClause',  0],
+['S_NoMatterWhoClause',  0],
+['S_WhoeverClause',  0],
+['S_NoMatterWhichClause',  0],
+['S_WhicheverClause',  0],
+['S_NoMatterHowClause',  0],
+['S_HoweverClause',  0],
+['S_NoMatterWhenClause',  0],
+                ]
+            }]
+        });
+    
+        }
+        </script>
+
+    </head>
+
+    <body>
+        
+        <form method="post" accept-charset="utf-8">
+            <table border="1" cellspacing="0" cellpadding="0" style="width:550px;">
+				<tr>
+                	<td></td>
+					<td>Number</td>
+                	<td>Remark</td>
+                	<td>Mode</td>
+                	<td>User</td>
+                	<td>CreateTime</td>
+            	</tr>
+			{% for entries in entries_all %}
+				<tr>
+                	<td><input id="{{entries.mode}}" type="checkbox" name="r" value="{{forloop.counter}}" class="checkbox"></td>
+					<td>{{forloop.counter}}</td>
+                	<td>{{entries.remark}}</td>
+                	<td>{{entries.mode}}</td>
+                	<td>{{entries.user}}</td>
+                	<td>{{entries.createTime}}</td>
+            	</tr>
+			{% endfor %}
+            </table>
+			<input type="button" onclick="checkSelection()" value="Show Result" class="btn-submit">
+			<input type="button" onclick="more()" value="Show More" class="btn-submit">
+        </form>
+
+
+        {% if entries.id = 1 %} 
+            <p>{{entries.remark}}</p>
+        {% endif %}
+
+        <div>
+            <table id="datatable" name="datatable" border="1" cellspacing="0" cellpadding="0">
+                <thead>
+                <tr>
+                    <td>Attributions\Remark</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.remark}}</td>
+                    {%endfor%}
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>T_Bleu</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Bleu}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AmbiWord</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AmbiWord}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NewWord</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NewWord}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Idiom</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Idiom}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_OverLapWord</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_OverLapWord}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Collocation</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Collocation}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Noun</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Noun}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Verb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Verb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Adj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Adj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Prep</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Prep}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Adverb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Adverb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Pron</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Pron}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_VP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_VP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_QP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_QP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ADVP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ADVP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ADJP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ADJP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Locate_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Locate_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Sub_Predi</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Sub_Predi}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Predi_Obj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Predi_Obj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Predi_Comp</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Predi_Comp}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Prep_Obj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Prep_Obj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Adv_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Adv_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Adj_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Adj_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Noun_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Noun_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Cons_Verb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Cons_Verb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Pivot_Phrase</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Pivot_Phrase}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Noun</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Noun}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Verb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Verb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Adj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Adj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Prep</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Prep}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Adverb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Adverb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Pron</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Pron}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Quantity</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Quantity}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_AdjTrans</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_AdjTrans}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_AdvTrans</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_AdvTrans}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_ModalVerb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_ModalVerb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Article</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Article}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_NP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_NP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_VP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_VP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_PP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_PP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_QP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_QP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_ADVP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_ADVP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_ADJP</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_ADJP}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_WH_Prep_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_WH_Prep_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_WH_Adv_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_WH_Adv_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_WH_Noun_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_WH_Noun_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_CONJ_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_CONJ_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Sub_Predi</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Sub_Predi}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Predi_Obj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Predi_Obj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Adv_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Adv_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Adj_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Adj_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Be_Predi</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Be_Predi}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_BA_Sen</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_BA_Sen}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_BEI_Sen</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_BEI_Sen}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_SHI_Sen</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_SHI_Sen}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_YOU_Sen</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_YOU_Sen}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_DicPrep</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_DicPrep}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Acro</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Acro}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_MWE</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_MWE}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PhrVerb</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PhrVerb}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Hyperbaton</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Hyperbaton}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AdjTrans</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AdjTrans}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AdvTrans</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AdvTrans}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WH_Prep_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WH_Prep_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WH_Adv_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WH_Adv_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WH_Noun_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WH_Noun_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_CONJ_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_CONJ_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Be_Predi</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Be_Predi}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Measure</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Measure}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Locate_Phr</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Locate_Phr}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Predi_Comp</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Predi_Comp}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Prep_Obj</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Prep_Obj}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>T_Noun_MOD</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.T_Noun_MOD}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NormalPresentTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NormalPresentTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NormalPostTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NormalPostTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentCompleteTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentCompleteTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostCompleteTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostCompleteTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureCompleteTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureCompleteTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureCompleteTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureCompleteTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentCompleteDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentCompleteDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostCompleteDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostCompleteDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureCompleteDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureCompleteDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureCompleteDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureCompleteDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NormalPresentTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NormalPresentTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NormalPostTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NormalPostTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentCompleteTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentCompleteTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostCompleteTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostCompleteTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureCompleteTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureCompleteTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureCompleteTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureCompleteTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureDoingTense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureDoingTense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PresentCompleteDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PresentCompleteDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostCompleteDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostCompleteDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_FutureCompleteDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_FutureCompleteDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_PostFutureCompleteDoingTense_NOT</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_PostFutureCompleteDoingTense_NOT}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WhenClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WhenClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WheneverClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WheneverClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WhileClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WhileClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_BeforeClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_BeforeClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AfterClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AfterClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_UntilClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_UntilClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_TillClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_TillClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ByTheTimeClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ByTheTimeClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AsSoonAsClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AsSoonAsClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Hardly_WhenClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Hardly_WhenClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoSooner_ThanClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoSooner_ThanClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_TheMomentClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_TheMomentClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_TheMinuteClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_TheMinuteClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ImmediatelyClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ImmediatelyClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_DirectlyClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_DirectlyClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_InstantlyClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_InstantlyClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_BcauseClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_BcauseClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_SinceClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_SinceClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NotThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NotThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_IfClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_IfClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_UnlessClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_UnlessClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_InCaseClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_InCaseClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AsLongAsClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AsLongAsClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_SoThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_SoThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_InOrderThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_InOrderThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ForFearThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ForFearThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_So_ThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_So_ThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_Such_ThatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_Such_ThatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ThanClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ThanClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_As_AsClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_As_AsClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_So_AsClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_So_AsClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_As_IfClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_As_IfClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AsThoughClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AsThoughClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_ThoughClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_ThoughClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_AlthoughClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_AlthoughClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_EvenIfClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_EvenIfClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_EvenThough</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_EvenThough}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoMatterWhatClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoMatterWhatClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WhatEverClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WhatEverClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoMatterWhoClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoMatterWhoClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WhoeverClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WhoeverClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoMatterWhichClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoMatterWhichClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_WhicheverClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_WhicheverClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoMatterHowClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoMatterHowClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_HoweverClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_HoweverClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>S_NoMatterWhenClause</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.S_NoMatterWhenClause}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>GeneralScore</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.GeneralScore}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>a</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.a}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Words</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Words}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Phrases</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Phrases}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Sentences</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Sentences}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Source_Words</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Source_Words}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Source_Phrases</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Source_Phrases}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Source_FunctionalWords</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Source_FunctionalWords}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Source_SubstanWords</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Source_SubstanWords}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Source_SpecialWords</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Source_SpecialWords}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Target_Words</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Target_Words}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Target_Phrases</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Target_Phrases}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Target_FunctionalWords</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Target_FunctionalWords}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Target_SubstanWords</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Target_SubstanWords}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>DefaultGroup</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.DefaultGroup}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>b</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.b}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Result_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Result_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Manner_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Manner_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Compare_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Compare_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Tense_Yes</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Tense_Yes}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Tense_No</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Tense_No}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Tense</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Tense}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Reason_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Reason_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Concessive_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Concessive_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Purpose_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Purpose_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Condition_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Condition_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                <tr>
+                    <td>Time_Clauses</td>
+                    {%for entries in entries_all%}
+                    <td>{{entries.Time_Clauses}}</td>
+                    {%endfor%}
+                </tr>
+                </tbody>
+
+            </table>
+			
+			<div id="container" style="float:left;height:7555px"></div>
+			<div id ="moreContainerAll">
+			<div id="moreContainerC2E1" style="float:left;min-width:400px;height:400px"></div>
+            <div id="moreContainerC2E2" style="float:left;min-width:400px;height:400px"></div>
+			<div id="moreContainerE2C1" style="float:left;min-width:400px;height:400px"></div>
+            <div id="moreContainerE2C2" style="float:left;min-width:400px;height:400px"></div>
+			</div>
+        </div>
+
+    </body>
+
+</html>

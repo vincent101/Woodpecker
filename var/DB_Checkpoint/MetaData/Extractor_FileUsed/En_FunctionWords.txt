@@ -1,0 +1,343 @@
+#This file is English function word file
+#Lines start with # are comments and will be ignored
+#This file is used to improve word alignment in E2C task
+#The format is one English word per line.
+
+ c
+ cont.
+ g cont.
+a
+a'ight
+aah
+aarrghh
+aboard
+about
+above
+absent
+absolutely
+according to
+achoo
+across
+after
+against
+ago
+ah
+ahead of
+ahh
+ahoy
+alack
+alas
+along
+along with
+alongside
+alright
+although
+amid
+amidst
+among
+amongst
+an
+and
+anent
+anti
+apart
+apart from
+argh
+around
+as
+as far as
+as to
+as well as
+aside
+aside from
+aslant
+astride
+at
+atishoo
+atop
+attaboy
+attagirl
+au revoir
+avast
+aw shucks
+away
+aww
+ay
+ay, chihuahua
+aye
+aye man
+bah
+bam
+banzai
+barring
+because
+because of
+before
+begorra
+begorrah
+behind
+bejesus
+below
+beneath
+beside
+besides
+between
+betwixt
+beyond
+blah
+blah blah blah
+blimey
+bollocks
+boo
+boo hoo
+bosh
+both...and
+bravo
+brr
+brrr
+bullseye
+bully
+but
+bwahaha
+by
+by means of
+capeesh
+capisce
+caramba
+cha-ching
+cheerio
+cheers
+chin up
+chop-chop
+circa
+click
+close to
+come on
+concerning
+congrats
+congratulations
+considering
+coo
+cooee
+cooey
+cool beans
+coppish
+cor
+cor blimey
+crikey
+criminy
+cripes
+crivvens
+curses
+d'oh
+dang it
+despite
+dog my cats
+doggone
+doh
+doing
+dominus vobiscum
+down
+due to
+duh
+during
+easy does it
+eep
+egad
+eh
+either...or
+er
+erm
+eureka
+even if
+even though
+every man for himself
+ew
+eww
+except
+failing
+fair dinkum
+far from
+fark
+feck
+feh
+following
+for
+for crying out loud
+fore
+frack
+freeze
+from
+fuddle-duddle
+g'night
+ga-ga
+gack
+gad
+gadzooks
+gall dang
+gee
+gee up
+gee whiz
+geez
+geronimo
+get fucked
+giddyup
+go figure
+Godspeed
+golly
+goo goo ga ga
+good for you
+good grief
+good luck
+good riddance
+goodie
+goodness me
+gorblimey
+Gordon Bennett
+gosh
+gramercy
+great
+Great Scott
+ha
+ha ha
+ha-ha
+hadaway
+hah
+haha
+halloa
+handbags
+hands off
+Happy Thanksgiving
+har
+harumph
+haway
+heads up
+hee
+heh
+hehe
+hella
+hello
+hence
+hey
+hey presto
+hip hip hooray
+hiya
+hm
+hmm
+hmmm
+hold it
+hold the phone
+hoo
+hoo man
+hooah
+hooray
+hop it
+horse hockey
+howay
+hoy
+hubba hubba
+huh
+hurrah
+hurray
+huzzah
+if
+in
+in accordance with
+in addition to
+in case
+in case of
+in front of
+in lieu of
+in order that
+in place of
+in spite of
+in to
+inside
+inside of
+instead of
+into
+itshay
+jagoff
+Janey Mack
+jeez
+jinkies
+Judas Priest
+kabish
+kaboom
+kapwing
+like
+mid
+minus
+near
+near to
+neither...nor
+next
+next to
+nor
+not only...but also
+notwithstanding
+now that
+of
+off
+Oh boy
+Oh no
+on
+on account of
+on behalf of
+on to
+on top of
+only if
+onto
+opposite
+or
+out of
+outside
+outside of
+over
+owing to
+past
+per
+plus
+prior to
+pursuant to
+qua
+re
+regarding
+round
+sans
+save
+since
+so
+subsequent to
+than
+the
+though
+through
+throughout
+till
+times
+to
+toward
+towards
+under
+underneath
+unless
+unlike
+until
+unto
+up
+upon
+versus
+via
+vis-ид-vis
+when
+whereas
+whether or not
+whether...or
+while
+with
+with regard to
+withal archaic
+within
+without
+yet

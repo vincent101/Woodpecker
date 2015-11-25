@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title> history </title>
+        <script src="/staticfiles/templates/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+               //$("#selectItem").click(function(){
+               //    var selectItem = $("#selectItem").val();
+               //    <!--var b = $("#a").val();-->
+               //    $.get("/add/",{'selectItem':selectItem},function(ret){
+               //        $('#result').html(ret)
+               //        //history.html(ret);
+               //    })
+               //});
+               // $('#selectItem').click(function(){
+               //     var selectItem = $("#selectItem").val();
+               //     $.getJSON('/ajax_list/',function(ret){
+               //         for (var i = ret.length -1; i>=0; i--){
+               //             $('#list_result').append(''+ret[i])
+               //         }
+               //     })
+               // });
+               // $('#selectItem').click(function(){
+               //     var selectItem = $("#selectItem").val();
+               //     $.getJSON('/ajax_dict/',function(ret){
+               //         $('#dict_result').append('{{'+ret+'}}')
+               //     })
+               // });
+               // $('#selectItem').click(function(){
+               //     var selectItem = $("#selectItem").val();
+               //     $.getJSON('/ajax_url_to_json/',function(ret){
+               //         $.each(ret,function(i,item){
+
+               //         });
+               //     });
+               // });
+            });
+        </script>
+
+    </head>
+
+    <body>
+        {{entries_all}}
+        <form action="/add/" method="get" accept-charset="utf-8">
+            {% for entries in entries_all %} 
+            <input id='selectItem' type="checkbox" name="selectItem" value="{{entries.id}}">
+				{{forloop.counter}}
+                {{entries.user}}
+                {{entries.createTime}}
+                {{entries.remark}}
+                {{entries.id}}
+                <br>
+                <!--<p><input type="button" onclick="checkSelection()" value="Confirm"></p>-->
+            {% endfor %}
+        </form>
+
+
+        <div>
+            <p>result: <span id='result'></span></p>
+            <p id="list_result"></p>
+        </div>
+
+    </body>
+
+</html>

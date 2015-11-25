@@ -1,0 +1,107 @@
+#This file is English preposition word file
+#Lines start with # are comments and will be ignored
+#This file is used to extract the check-point of S:DicPrep in E2C task
+#The format is: [English word]: [Chinese translaion 1]||[Chinese translation2]||...
+#Chinese translation containing "<*>" means a non-contiguous phrase.
+
+aboard: 在 <*> 上||上 <*>
+about: 在 <*>附近||关于||在 <*> 周围||忙于
+above: 在 <*> 上方||过于||超出
+across: 越过||交叉||在 <*> 的那边||在 <*> 对面那边
+after: 在 <*> 之后|| 在 <*> 后面|| 模仿|| 与 <*> 一致|| 以 <*> 命名|| 后来的|| 后面的
+against: 相反|| 反对|| 逆着|| 靠着|| 倚着
+along: 顺着|| 沿着
+alongside: 横靠
+amid: 在 <*> 中
+amidst: 在 <*> 当中
+among: 在 <*> 之中||  <*> 之一
+amongst: 在 <*> 中间|| 在 <*> 之中
+around: 在 <*> 周围|| 四处
+as: 当做
+at: 在 <*> 里||在 <*> 附近||出现在 <*> 一面||向||朝向||出席||在 <*> 出现||在 <*> 期间||在
+barring: 不包括|| 除非
+before: 在 <*> 之前
+behind: 在 <*> 之后
+below: 在 <*> 下面
+beneath: 在 <*> 之下
+beside: 在旁边|| 和 <*> 比较
+besides: 除 <*> 之外
+between: 在 <*> 之间|| 连接 <*> ||由 <*> 协力合作
+beyond: 在 <*> 较远的一边|| 超过|| 那一边
+but: 除 <*> 以外
+by: 在附近|| 在旁边|| 经|| 由|| 依据|| 按照|| 通过|| 用
+despite: 不管|| 尽管|| 不论
+down: 往下|| 沿着
+during: 在 <*> 的期间|| 在 <*> 的时候
+except: 除了 <*> 之外|| 若不是|| 除非
+failing: 如果没有 <*> 
+following: 在 <*> 之后
+for: 为了|| 因为|| 至于|| 对于|| 适合于
+from: 从|| 今后|| 来自|| 由于
+in: 在 <*> 之内|| 在 <*> 期间|| 从事于|| 符合|| 穿着
+inside: 在 <*> 之内
+into: 到 <*> 里|| 进入到 <*> 之内|| 成为 <*> 状况|| 深入 <*> 之中
+like: 象|| 如同
+minus: 减去
+near: 在 <*> 近旁|| 近 <*> 
+notwithstanding: 虽然|| 尽管
+of:  <*> 的|| 由 <*> 制成的|| 离|| 关于|| 对于
+off: 从 <*> 离开|| 脱离
+on: 在 <*> 之上|| 依附于|| 临近|| 靠近|| 向|| 在 <*> 时候|| 关于|| 涉及
+onto: 在 <*> 之上
+outside: 在 <*> 外
+over: 在 <*> 之上|| 越过
+past: 越过|| 晚于
+per: 每|| 每一|| 由|| 经
+plus: 加上
+regarding: 关于
+round: 围着|| 附近|| 绕过|| 在 <*> 周围
+save: 除 <*> 之外
+since: 自从|| 自 <*> 以来
+than: 与 <*> 相比较
+through: 穿过|| 通过|| 从开始到结束|| 经由|| 以
+throughout: 遍及|| 贯穿
+till: 直到|| 在 <*> 以前|| 迄
+to: 向|| 往|| 给 <*> ||于 <*> ||直到 <*> 为止|| 在 <*> 之前|| 比|| 对|| 到|| 达
+toward: 向|| 对于|| 为了
+towards: 向|| 朝|| 对面|| 接近|| 对|| 有助于
+under: 在 <*> 之下|| 在 <*> 之内|| 在 <*> 领导下|| 低于|| 假借
+underneath: 在 <*> 的下面
+unlike: 不象 <*> ||和 <*> 不同
+until: 到 <*> 为止|| 在 <*> 以前
+up: 向上|| 在上|| 沿
+upon: 在 <*> 之上
+via: 经|| 通过|| 经由
+with: 有|| 以|| 用|| 同 <*> ||由于|| 和 <*> 一致|| 赞成|| 关于|| 就
+within: 在 <*> 之内|| 不越出
+without: 没有|| 不|| 如果没有|| 要没有
+worth: 相当 <*> 价值
+according to: 依照
+ahead of: 在 <*> 前面
+along with: 连同 <*> 一起|| 随同 <*> 一起
+as to: 关于|| 至于
+aside from: 不包括||除…以外
+except for: 除 <*> 以外
+far from: 远离|| 远非|| 远远不|| 完全不|| 非但不
+inside of: 在 <*> 之内
+instead of: 代替|| 而不是 <*> 
+out of: 在 <*> 外||从里面||由于||缺乏|| 放弃||丧失||在 <*> 范围外||用 <*> 制成||来自||与 <*> 不相宜|| 不相称||离开||脱离
+outside of: 在 <*> 的外面
+owing to: 由于|| 因 <*> 之缘故
+prior to: 在前|| 居先
+pursuant to: 从而|| 因此
+regardless of: 不管|| 不顾
+as far as: 远到|| 直到|| 至于
+as well as: 也|| 又
+by means of: 依靠
+in accordance with: 与 <*> 一致|| 依照
+in addition to: 除 <*> 之外
+in case of: 假设|| 万一
+in front of: 在 <*> 前面
+in lieu of: 代|| 代替
+in place of: 代替
+in spite of: 不管
+on account of: 由于
+on behalf of: 代表 <*> 
+on top of: 熟练掌握|| 在 <*> 之上|| 另外|| 紧接着
+with regard to: 关于

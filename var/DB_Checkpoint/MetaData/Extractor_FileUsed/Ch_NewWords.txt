@@ -1,0 +1,973 @@
+﻿#This file is Chinese NewWord file
+#Lines start with # are comments and will be ignored
+#This file is used to extract the check-point of S:NewWord in C2E task
+#The format is: [Chinese word]$[English translation 1]||[English translation 2]||...
+
+矮子里拔将军$choose a general from among the dwarfs--pick the best out of a mediocre bunch
+爱尔兰共和军$Irish Republic Army (IRA)||irish republican army
+爱国民主人士$patriotic democratic personages
+爱国统一战线$patriotic united front
+爱丽舍宫$Elysé e Palace
+爱鸟周$Bird-Loving Week
+爱屋及乌$Love me, love my dog||love me,love my dog
+爱心工程$Loving Care Project
+安家费$settling-in allowance||allowance for setting up a home in a new place||family allowance
+安居工程$Comfortable Housing Project
+安乐死$euthanasia
+安理会$Security Council||the Security Council of the UN
+安全岛$safety strip||safety island
+预防为主$Safety first, precaution crucial
+安慰奖$consolation prize
+按键式电话$push-botton phone||Touch-Tone||keyphone
+按揭贷款$mortgage loan
+按揭购房$to buy a house on mortgage||to mortgage a house
+按劳分配$distribution according to one's performance||distribution according to work
+按资排辈$to assign priority according to seniority
+暗恋$unrequited love||fall in love with someone secretly
+暗箱操作$black case work
+奥姆真理教$Japanese Aum Doomsday Cult||aum shinrikyo
+巴解$the Palestinian Liberation Organization
+吧台$bar counter
+拔河(游戏)$tug-of-war
+把关$guard a pass||check on
+把握大局$grasp the overall situation
+霸权主义$hegemonism||hegemony
+白金汉宫$Buckingham Palace||buckingham palace
+白领$White collar||white-collar||white-collar worker
+人们开始用$white-collar
+白领犯罪$white-collar crime
+白领工人$white-collar worker
+白马王子$Prince Charming
+白皮书$white paper||white book
+白热化$be white-hot||turm white-hot
+白色污染$white pollution
+白色行情表$white sheet
+白手起家$starting from scratch||build up from nothing||start from scratch
+白雪公主$Snow White
+百慕大三角$Burmuda Triangle
+百年老店$century-old shop
+百闻不如一见$Seeing is believing||it is better to see once than hear a hundred times
+摆花架子$a metaphor for presenting an attractive facade but in reality lacking substance
+摆架子$put on airs||assume great airs
+摆谱儿$put on airs||show off||keep up appearances||try to appear rich and elegant
+摆脱贫困$shake off poverty||lift oneself from poverty
+拜把兄弟$sworn brothers
+拜金主义$money worship
+拜年$pay New Year call||pay a New Year call
+班车$shuttle bus||scheduled bus
+班门弄斧$teach one's grandma to suck eggs||show off one's proficiency with the axe before Iu Ban the master carpenter--display one's slight skill before an expert
+斑马线$zebra stripes||zebra-stripe
+搬迁户$a relocated unit or household||relocated households
+搬运工人$transport worker
+板式楼$slab-type apartment building
+版权法$copyright law
+版权贸易$copyright licensing business
+版权所有$copyright reserved||copyrighted
+版税率$royalty rate
+办公自动化$OA (Office Automation)||office automation
+半边天$half the sky
+半决赛$semifinals
+半决赛四强$four semifinalists
+半拉子工程$uncompleted project
+半托$day care (for kids)
+半脱产$a partial sabbatical from work||partly released from productive labor
+伴宴人员$escort
+帮倒忙$trying to help but causing more trouble in the process||be more of a hindrance than a help
+傍大款$of a girl) find a sugar daddy||be a mistress for a rich man||lean on a moneybags
+棒球运动记者$scribe
+包车$to charter a vehicle (bus, train car, etc.)||a chartered vehicle||a chartered car
+包二奶$have a concubine (originally a Cantonese expression)
+包房$to reserve rooms in a hotel or guest house for exclusive use
+包干到户$work contracted to households
+包干制$overall rationing system||scheme of payment partly in kind and partly in cash||a system of payment partly in kind and partly in cash
+包工包料$contract for labor and materials
+包购包销$exclusive right to purchase and sell
+包机$charter a plane||a chartered plane
+包销人$underwriter
+包装业$packaging business
+保持国有股$keep the State-held shares
+保兑银行$confirming bank
+保护关税$protective duty/tariff||protective tariff
+保护价格$protective price
+保护伞$protective umbrella||umbrella
+保护生态环境$preserve the ecological environment
+保护主义$protectionism
+保监会$the China Insurance Regulatory Commission
+保健按摩$therapeutic massage
+保健品$health care products
+保健食品$health-care food
+保理业务$factoring business
+保龄球$bowling
+保释$on bail||release on bail
+保外帮教$remain out of custody by receiving help from the family or work unit
+保息股票$guaranteed stock
+保障措施$supporting measures
+保证金帐户$margin account
+保证重点支出$ensure funding for priority areas
+保值储蓄$inflation-proof bank savings
+保值利率$index-linked interest rate||inflation-proof interest rate
+保质期$shelf (storage) life||guarantee period
+报复性关税$retaliatory duty
+报关员$declarant
+报价单$quotation of prices
+报喜不报忧$report only the good but not the bad||report only the good news and not the bad
+报销$apply for reimbursement||submit an expense account
+暴发户$new rich||upstart (perChildren or households who suddenly became rich through unscrupulous means or unexpected opportunities)||upstart
+暴力片$splatter film
+爆冷门$produce an unexpected winner||a dark horse bobbing up
+北京四环路$the fourth ring road in Beijing||4th ring road (beijing)
+北欧投资银行$Nordic Investment Bank
+北约$NATO (the North Atlantic Treaty Organization)
+备用资金$reserve fund
+背黑锅$to become a scapegoat||be unjustly blamed
+背投屏幕$rear projection screen
+被动吸烟$passive smoking||second-hand smoking
+被摘牌的公司$delisted company
+奔小康$strive for a relatively comfortable life
+本本主义$bookishness||book worship
+本垒打$circuit clout, four-master, round trip
+本土化$localilzation
+笨鸟先飞$A slow sparrow should make an early start||clumsy birds have to start flying early-the slow need to start earl
+蹦迪$disco dancing
+蹦极$bungee, bungee jumping
+逼上梁山$be driven to drastic alternatives||drive to revolt
+比基尼$bikini||bikini (disambiguation)
+比较经济学$comparative economics
+比较文学$comparative literature
+比下有余$worse off than some, better off than many||to fall short of the best, but be better than the worst
+毕业设计$graduation design||graduation project
+闭关政策$closed-door policy
+闭卷$closed-book exam
+闭路电视$close-circuit television||closed-circuit television
+闭门羹$given cold-shoulder||denied entrance
+避税$evade tax||tax avoidance and tax evasion
+避嫌$avoid doing anything that may arouse suspicion||avoid arousing suspicion
+边际报酬$marginal return
+边际效益$marginal benefit
+边际薪酬$marginal salaries
+边缘科学$borderline (boundary) science||fringe (border) discipline||boundary science
+边缘知识人$Marginal intellectuals
+边远贫困地区$outlying poverty-stricken areas
+贬值$devalue, devaluate, depreciate (of a currency)||devalue
+便当$fast food||easy||bento
+便携式电脑$portable computer||laptop||notebook computer
+便衣警察$police in plain clothes
+变相涨价$disguised inflation
+标书$bidding documents
+表见代理$agency by estoppel
+表面文章$lip service||surface formality
+表演赛$demonstration match
+冰雕$ice sculpture||ice engraving
+冰毒$ice, popular name for methamphetamine hydrochloride, a deadly addictive stimulant drug
+兵马俑$terra-cotta figures||soldier and horse figures||terracotta soldiers and horses
+并网发电$combined to the grid
+剥夺冠军$strip the gold medal of somebody
+剥离不良资产$strip bad assets off
+伯乐$a good judge of talent (a name of a legendary person in the state of Qin during the Spring and Autumn Period who excelled in evaluating horses)||Bole
+博彩（业）$lottery industry
+博导$Ph.D. supervisor||doctoral advisor
+博士后$post-doctoral||postdoctor||postdoctoral researcher
+博士生$Ph.D candidate||doctorial student
+薄利多销$small profit, large sale volume||larger sales at a small profit
+补偿贸易$compensatory trade
+补缺选举$by-election
+不败记录$clean record, spotless record
+不打不成交$No discord, no concord
+不感冒$have no interest
+不管部部长$minister without portfolio
+不记名投票$secret ballot
+不结盟运动$non-aligned movement
+不可再生资源$non-renewable resources
+不买帐$not take it||not go for it
+不眠之夜$white night
+不明飞行物$unidentified flying object (UFO)||unidentified flying object
+不惹是非$Stay out of trouble.||Let sleeping dogs lie
+不速之客$gate-crasher||chance comer
+不信任投票$vote of non-confidence
+不夜城$sleepless city, ever-bright city
+不遗余力$spare no effort||go all out||do one's best||spare no pains||spare no efforts
+不以己悲$not pleased by external gains, not saddened by personnal losses
+不正当竞争$unfair competition
+布达拉宫$Potala Palace||the Potala Palace||potala palace
+步步高升$Promoting to a higher position
+步行街$pedestrian street||car-free zone
+步行天桥$pedestrian overpass
+部长级会议$ministerial meeting
+擦边球$edge ball, touch ball
+擦网球$net ball
+才疏学浅$be wanting in ability and shallow in knowledge||have little talent and less learning
+才子佳人$gifted scholars and beautiful ladies
+财务丑闻$accounting scandal
+财务代理人$fiscal agent
+财务公开$keep the public informed of the financial affairs
+财政包干$fiscal responsibility system
+财政赤字$financial deficit
+财政纪律$financial and economic discipline
+财政年度$fiscal year||financial year
+财政收入$fiscal revenue
+财政税收$revenue tax||fiscal levy||fiscal taxation||financial taxation
+裁减冗员$cut down on overstaffing||lay off redundant staff
+裁军$disarmament
+采光$lighting
+采景$choose a location (for movie, TV drama, etc.)
+采暖$heating
+采取措施后$ex post
+采取措施前$ex ante
+采取高姿态$show magnanimity
+彩扩$color film processing
+菜篮子工程$shopping basket program
+新手$green hand||new hand
+参拜靖国神社$visit to the Yasukuni war shrine
+参股公司$joint stock company
+参股者$equity participant
+参政、议政$participate in the management of State affairs
+参政党$parties participating in the management of state affairs||parties participating in the government decision-making process
+餐巾纸$napkin
+餐桌转盘$Lazy Susan
+惨淡经营$work hard and carefully to keep one's business going||keep going by painstaking effort
+仓储式超市$stockroom-style supermarket
+藏书票$book labels identifying a collector or collection
+藏学$Tibetology
+操办$make arrangements||handle||manage
+操纵股票市场$manipulate the stock market
+草根工业$grass root industry (refers to village and township enterprises which take root among farmers and grow like wold grass)
+草药$herbal medicine||medicinal herbs||herb
+侧记$sidelights
+查房$make/go the rounds of the wards
+查封$close down||seal up
+茶道$sado
+差额拨款$balance allocation
+差额投票$differentail voting
+差额选举$competitive election
+拆东墙补西墙$rob Peter to pay Paul
+拆迁补偿费$compensation for demolition
+拆迁户$households or units relocated due to building demolition
+搀水股票$water-down stocks (ordinary stocks that can be bought by perChildren inside a stock company or a business at a cost lower that their face value)
+产假$maternity leave||maternity department
+产粮大省$granary province
+产品构成$product composition
+产品积压$overstocked products
+产品结构$product mix
+产品科技含量$technological element of a product
+产权转让$transference of title of property
+产销两旺$both production and marketing thrive
+产销直接挂钩$directly link production with marketing
+产业不景气$industrial depression
+产业结构升级$upgrading of an industrial structure
+产业升级$upgrade industries
+长二捆$LM-2E||Long March 2-E
+长江中下游$the middle and lower reaches of Changjiang River
+长跑$a long-distance running||long-distance race||long-distrance running
+长途电话$distant calls||toll call
+长线产品$product in excessive supply
+长治久安$a long period of stability||prolonged political stability||lasting political stability||long period of stability
+偿付能力$solvency
+常规裁军$conventional disarmament
+常设国际法庭$permanent international tribunal
+常委会$standing committee
+常务董事$managing director||excutive director
+常务理事$executive member of the council
+常驻代表$permanent representative
+常驻记者$resident correspondent
+常驻使节$permanent envoy
+场内交易人$floor trader
+场外证券市场$over-the-counter market
+敞蓬轿车$open-topped limousine
+畅通工程$Smooth Traffic Project
+倡议书$initial written proposal
+唱对台戏$mouth high-sounding words||enter into rivalry
+唱名表决$roll-call vote
+唱双簧$play a duet----collaborate||echo each other
+超编人员$exceed personnel
+超导元素$superconducting elements
+超短波$ultrashort wave
+超负荷运转$overloaded operation
+超级巨型油轮$ultra large crude carrier
+超前教育$superior education
+超前消费$pre-mature consumption||overconsuming||excessive consumption||spend beyond one's means
+超前意识$superior consciousness
+超载过牧$overgraze
+超支户$household (or family) living perpetually in debt
+朝阳产业$sunrise industry
+潮汐电站$tidal power stations
+炒汇$speculate in foreign currency
+炒作$speculation (stock)||sensationalization (news)
+扯皮$shirk||pass the buck||dispute over trifles
+撤销原案$rescind the case
+撤销职务$annul one's position||dismiss ... from||be stripped of||remove... from
+尘云$dust clouds
+沉没成本$sunk cost
+晨练$morning exercise||exercise in the morning
+趁热打铁$make hay while the sun shines||strike while the iron is hot
+成本分摊$sharing costs
+成本效益$cost-effectiveness
+成本效益分析$cost-efficiency analysis
+成分指数$component index
+成活率$survival rate
+成吉思汗$Genghis Khan||genghis khan
+成套引进$package import
+成药$patent medicine||medicine already prepared by a pharmacy
+成组技术$group technology
+承包$contract with||contract
+承包经营权$contract for the managerial right
+承购包销$underwrite
+承建$contract to build
+城际列车$inter-city train
+城市合作银行$urban cooperative bank
+城市建设$urban construction
+城市经济学$urban economics
+城市景观$townscape
+城市恐惧症$urbiphobia
+城市垃圾$city refuse
+城市绿地$urban open space||urban green land
+城市绿化$urban landscaping
+城市美容师$urban environmental worker
+城市运动会$municipal athletics meet
+矫揉造作$cutesification||affected||artificial
+崇尚竟品至上$boutiqueification
+攀比银行存款$bankification
+等摆阔作风$middle-aged urban yuppie
+城乡电网改造$projects for upgrading urban and rural power grids
+城乡信用社$credit corroborative in both urban and rural areas
+乘务员$vehicular attendant||conductor||attendant on train
+惩办主义$doctrine of punishment
+治病救人$learn from past mistakes and avoid future ones, and to cure the sickness to save the patient||cure the sickness and save the patient
+程控电话$program-controlled telephone
+程控交换台$program-controlled telephone switchboard
+吃饱穿暖$eat their fill and dress warmly||have enough to eat and wear||have adequate food and clothing
+吃饭财政$payroll finance||mouth-feeding budget-----a large proportion of the budget has been earmarked for paying salaries of government functionaries
+吃干醋$be jealous||be green with envy
+吃皇粮$receive salaries, subsidies, or other supported from the government
+吃劳保$live on labor insurance allowance
+吃老本$live on one's own fat||bask in one's past glory||rest on one's laurels||live off one's past gains
+吃偏饭$enjoy special privilege
+吃闲饭$stay idle||lead an idle life
+吃香$be very popular||be most welcome||be in great demand||popular
+痴迷者$addict
+持币待购$wait to buy with cash in hand
+持平$hold the line||keep balance
+赤贫人口$people living in absolute poverty||destitute population
+充电$recharge one's batteries||update one's knowledge||brush up||charge
+两种资源$fully utilize both domestic and international markets and resources
+充值卡$rechargeable card
+冲动性购买$impulse buying||impulse shopping
+冲剂$dissolved medicines||instant herbal medicines||electuary
+冲浪艇$surfboat
+冲帐$strike a balance||counter-balance accounts||reverse an entry
+宠物医院$pet clinic
+抽调$transfer a portion||transfer
+抽检$spot check
+抽杀成功$hit through
+抽样调查$sample survey
+筹备委员会$preparatory committee
+筹资渠道$fundraising channels
+出风头$show off||in the limelight||seek the limelight
+出国热$craze for going abroad
+出家$pravrajana||cloister||become a monk
+出境签证$exit visa
+出口创汇能力$capacity to earn foreign exchange through exports
+出口加工区$export processing zones
+出口卖方信贷$seller's credit on exports
+出口退税率$export rebate rate
+出口退税制度$the system of refunding taxes on exported goods||export (tax) rebate
+出口押汇$bill purchased (B/P)||outward documentary bill
+出口转内销$domestic sales of commodities orginally produced for exports
+出笼$release a bad publication, plan, etc||appear
+出难题偏题$raise out-of-the-way and catchy questions
+出气筒$punching bag||one who serves as a vent to sb.'s anger
+出勤率$attendance rate||rate of attendance
+出入平安$Safe trip wherever you go
+出台$unveil fresh policy||come into being
+出租业务$leasing
+四害$eliminate the four pests---rats, bedbugs, flies and mosquitoes
+储备基金$reserve funds
+储币待购$save for purchases
+储运$storage and transport
+处理存货$sell-off
+处理价格$bargain price||reduced price
+处理品$items for disposal||goods sold at reduced prices
+触摸屏$touchscreen
+穿梭外交$shuttle diplomacy
+穿小鞋$make it hot for||make trouble for
+穿新鞋走老路$wearing new shoes to walk on the old path||change in form but not in content||put old wine in new wineskins
+穿针引线$act as go-between||act as a go-between
+传媒$media
+传统产业$conventional industries
+传销$pyramid sales||multi-level marketing
+船务公司$shipping service company
+窗口行业$various service trades
+创建卫生城市$build a nationally advanced clean city
+创利$generate profit||benefit
+创业精神$enterprising spirit||pioneering spirit
+创业园$high-tech business incubator||pioneer park
+创业者$start-up
+创意$create new ideas or concepts||originality
+吹风会$advance briefing
+垂直管理$vertical management
+垂直贸易$vertical trade
+春蕾计划$Spring Buds Program
+春运$passenger transport around the Chinese lunar new year||chunyun
+纯净水$purified water
+辞旧迎新$bid farewell to the old and usher in the new||ring out the old year and ring in the new||ring out the old year and ring in the new year
+磁卡电话$magnetic card telephone
+磁悬浮列车$Maglev train (magnetically levitated train), magnetic suspension train||maglev train
+次大陆$subcontinent
+次新股$sub-new stock
+从零开始$start from scratch
+到群众中去$from the masses, to the masses
+从众心理$group psychology
+凑份子$club together
+粗放经营$extensive operation
+粗放式管理$extensive management
+粗放型$extensive form
+粗加工产品$rough-wrought product
+促销$promote sales||promotion||sales promotion
+催泪弹$tear gas||tear bomb||riot control agent
+存储能力$storage capacity
+存款保证金$guaranty money for deposits
+存款单$Certificates of Deposits
+搭错车$follow a wrong train||join in a wrong group||follow a wrong example||wrong act because of wrong judgement or rash imitation
+搭售$conditional sale||tie-in sale
+搭送$throw in
+达标活动$target hitting activities
+答谢宴会$return banquet
+打白条$issue IOU
+打包贷款$packing credit (loan)
+打包儿$use doggy bags to take food home
+打保票$vouch for somebody||guarantee something
+打出王牌$play one's trump card
+打翻身战$fight to change for the better
+打工$do work for others||work to earn a living
+打击报复$conduct reprisals||retaliate||take revenge
+打假办$Office of Cracking down on Fake Products
+打卡机$punch machine
+打口碟$cracked CD
+三铁$break the Three Irons: iron armchairs(life-time posts), iron rice bowl(life-time employment)and iron wages (guaranteed pay)
+打破僵局$break the deadlock
+打顺手$find one's touch, get into gear, settle into a groove
+打私$combat smuggling
+打问号$have some question or doubt
+打小报告的人$squealer
+打游击$work in unfixed places||work as a seasonal labour||take up jobs here and there||work at no-fixed place
+大案要案$major cases
+大包大揽$take on the all things
+大包干$all-round responsibility system||the all-round contract
+大病统筹$comprehensive arrangement for serious disease
+大藏经$Tripitaka
+大酬宾$give a large discount to one's customers or guests
+大出血$make a big markdown||bleed heavily
+大而全$large and comprehensive||large and all-inclusive
+大轰动$blockbuster
+大环境$the social, political and economic environment||the over-all situation
+大换血$an overall renewal of the membership of an organization
+大减价$markdown sales
+大贱卖$big offering
+大奖赛$prize-giving competition||great prix competition
+大开眼界$open one's eyes||broaden one's horizon||be an eye-opener
+大款$tycoon||rich man
+大路货$cheap goods||2. popular goods of fine quality||popular goods of dependable equality
+大满贯$grand slam
+大排挡$sidewalk snack booth||large stall
+大排档$food stall
+大气候$state policies and priciples||overall atmosphere||macroclimate
+大撒把$totally laissez-faire
+大胜$white wash
+小事化了$try first to make their mistake sound less serious and then to reduce it to nothing at all
+大碗茶$stall tea
+大腕$top notch, big shot
+大卫教$ranch Davidian
+大型廉价商店$warehouse store
+大学生创业$university students' innovative undertaking
+大要案$major and serious criminal cases
+大昭寺$Jokhang Temple||jokhang
+大众传媒$mass media (of communications)
+大专生$junior college student||graduate of junior college
+大专文凭$associate degree
+大做文章$make a big fuss about something
+呆帐$dead account||bad debt
+代沟$generation gap
+代理服务$agency service
+代培$train on contract||be commissioned to train||directional training||train for
+代销店$commission agent
+代职$function in an acting capacity||act on sb's behalf
+带薪分流$assign redundant civil servants to other jobs while allowing them to retain their original rank and benefits
+带薪假期$paid holiday
+待岗$await job assignment, post-waiting
+待业$job-waiting||wait for employment
+待业人员$job-waiting people
+贷学金$student loan
+单边主义$unilateralism
+单刀赴会$start a solo run
+单亲家庭$single-parent family
+单身贵族$the single
+单挑$do something by oneself||work on one's own
+单向收费$One-way charge system
+单循环制$single round-robin system
+单一经济$one sided economy||single product economy
+单一种植$single cropping
+弹道导弹$ballistic missile||ballisticmissile
+弹性工资$flexible pay
+弹性就业$flexible employment
+弹性外交$elastic diplomacy
+淡季$dead or slack season||slack season||be off season
+淡水恶化$freshwater degradation
+蛋白质工程$protein engineering
+当前用户$active user
+当作耳旁风$turn a deaf ear to something
+挡箭牌$excuse||pretext
+党代会$congress of party representatives||the Party Congress
+党风建设$construction of the Party conduct
+党群关系$Party-masses relationship
+党外人士$non-Party personage||public figure outside the Party
+党性$Party spirit||party spirit||party character
+党政机关$Party and government organizations
+党总支$Party general branch||general party Branch
+导播$instructor in broadcasting
+导弹发射场$missile launching site||missile site
+导弹护卫舰$guide missile destroyer
+倒春寒$unusually cold spell in an otherwise warm early spring||cold spell in later spring
+倒挂销售$sell at a price lower than the purchasing price
+倒计时$countdown
+倒买倒卖$profiteering
+倒票$speculative reselling of tickets
+倒爷$profiteer||broker
+捣浆糊$give the runaround||run wild||act restlessly
+盗版$VCD pirated VCD||copyright infringement
+盗用公款$embezzlement
+道德法庭$court of ethics
+德才兼备$have both political integrity and ability||people who possess both political integrity and professional ability||have both ability and political integrity
+德高望重$be of high integrity and prestige||enjoy high prestige and command universal respect||be of noble character and enjoys high prestige||be for high character and great prestige
+德智体美劳$all around development of moral, intellectual, physical, aesthetics and labour education
+登革热$Dengue Fever||dengue
+登月舱$lunar module
+等额选举$single-candidate election
+等价交换$equal value exchange
+等距离外交$equidistant diplomacy
+等外品$off-grade goods, rejects||rejects
+邓小平理论$Deng Xiaoping Theory
+低调$low keyed (a metaphor for taking a cautious and slow approach)||undertone
+低谷$all-time low||at a low ebb||valley
+低级市$prefecture-level city
+低价住房$low-cose housing
+低空飞行$low-altitude flying
+滴入式经济$trickle-down economy
+迪斯尼乐园$Disney Land
+敌对势力$hostile forces
+底夸克$bottom quark
+地磁暴$geomagnetic storm caused by the activities of the sunspot
+地对地导弹$surface-to-surface ballistic missiles
+地方保护主义$regional protectionism
+地勤人员$ground crew
+地球村$global village
+地球末日$geocide
+地球日$Earth Day (April 22)
+地区霸权主义$regional hegemonism
+地区差异$regional disparity
+地热资源$geothermal resources
+地下出版物$underground publications
+地下经济$underground economy
+地下钱庄$illegal private bank
+地效飞机$land-effet plane
+地震棚$earthquake shelter-tents (used as emergency shelter after an earthquake)
+第二产业$secondary industry||second industry||secondary sector of industry
+第二上市$secondary listing
+第一发球权$first inning
+第一发球员$first server
+第一双打$first pair
+点播节目$request programme
+点面结合$integrate point and sphere||link up work at selected points which work in the enter area
+点名册$roll book
+点球$penalty kick
+点子公司$consultancy company
+电大$college courses broadcast on television||TV university
+电话号码升位$upgrade telephone number
+电话会议$teleconference
+电话会议呼叫$Conference calling
+电话留言机$answering machine
+电老虎$electricity guzzler||big power consumer||electricity-eating tigers
+电脑病毒$computer virus
+电脑空间$cyberspace
+电脑盲$computer illiterate
+电脑迷$mouse potato
+电脑校对机$electronic-brain collator
+电视发射台$television network
+电视会议$video conference
+电视直销$TV home shopping
+电信运营商$telecom operators
+电子报刊$electronic press
+电子出版$electronic publishing
+电子词典$electronic dictionary
+电子耳$electronic ears
+电子公告牌$bulletin board service (BBS)||E-business||E-commerce
+电子商务平台$e-commerce platform
+电子商务认证$e-business certification
+垫付$advancement, payment on account||advance money to sb
+吊带衫$sun-top, tank-top
+吊球$drop shot
+吊胃口$tempt (someone with something)||stimulate someone's desire
+吊销执照$revoke license
+钓鱼工程$angling engineering projects
+调酒师$bartender
+调侃$joke, tease||2. chitchat, empty talk||talk about everything freely and openly
+掉价$fall in price||degrade oneself
+跌幅$range of a price drop
+跌眼镜$have people drop glasses (make unexpected mistakes so as to shock people with wonder and have them drop their glasses)
+钉子户$person or household who refuses to move and bargains for unreasonably high compensation when the land is requisitioned for a construction project||tartar
+定编$personnel allocation||fix establishment
+定调子$set the tone
+定额计酬$quota remuneration
+定向培训$training for specific posts
+定向增发$additional stock issue tailed for
+定心丸$mind relief||assurance
+丢车保帅$give up a pawn to save a chariot||sacrifice something minor to save something major
+动感电影$multidimensional movie (3D or 4D etc.)
+动迁户$households to be relocated
+毒枭$drug trafficker
+独立董事$independent director
+独立关税区$separate customs territory
+独联体$the Commonwealth of Independent States (CIS)||commonwealth of independent states
+独生子女$the only child in one's family||one-child
+杜鲁门主义$Truman Doctrine
+渡假外交$holiday-making diplomacy
+端午节$the Dragon Boat Festival||Dragon Boat Festival||dragon boat festival
+短期放款$money at call and short notice
+短期债务$floating debt
+短线产品$products in short supply||goods in short supply
+断交信$Dear John letter (from woman to man)
+断码$short in size
+毫无顾忌$make no bones about
+对冲基金$hedge fund
+对等开放$reciprocal opening
+对讲机$talkie and walkie||interphone
+对奖活动$raffle
+对牛弹琴$play the harp( (lute) to a cow||cast pearls before a swine||cast pearls before swine
+对外招商$attract foreign investment
+敦煌石窟$Dunhuang Grottoes
+蹲点$of cadres) stay at a selected grass-roots spot (for investigation and study)||work at a selected spot
+多边贸易谈判$multilateral trade negotiation
+多边政策$multilateralism
+多党合作制$multi-party co-operation in exercising State power
+多极化$multi-polariation
+多极时代$multipolar times
+多极世界$multipolar world
+多极性$multi-polarized
+多劳多得$more pay for more work
+多媒体$multimedia||multi-media
+多任务小卫星$small multi-mission satellite (SMMS)
+多头市场$bull market
+多头账户$long account
+多退少补$refund for any overpayment or a supplemental payment for any deficciency
+多元化$pluralism
+多元社会$pluralistic society
+多种经营$diversified economy||diversify economy
+多重国籍$plural nationality||multiple nationality
+夺标$win the championship||win championship
+夺冠$take the crown||win championship
+厄尔尼诺现象$El Nino phenomenon||enso
+恶性通货膨胀$hyperinflation
+恶性循环$vicious circle||a vicious circle
+鳄鱼的眼泪$crocodile tears
+创业板市场$growth enterprise board||second board||hi-tech board
+二次创业$start a new undertaking
+二级市场$secondary market
+二进宫$to enter the palace a second time (people with a past criminal record again commits a crime, and is convicted and put into a correctional institution)||second-timer
+二流选手$scrub, second-rater
+二手房$second-hand house
+二元经济$dual economy||dual sector model
+发案率$incidence (of criminal cases)
+发烧友$fancier||zealot||enthusiastic fan
+发展不平衡$disparate development
+发展是硬道理$Development is of overriding importance. / Development is the absolute need
+法定货币$legal tender||fiat currency
+法律硕士$jurist master (jm)
+法人代表$legal representative||designated agent
+法人股$corporate shares
+法制国家$a state with an adequate legal system
+翻版$reprint||reproduction||mirror image
+翻两番$quadruple
+翻牌公司$government-body-turned company
+反败为胜$bring about a complete turnabout, pull out of the fire
+反补贴税$countervailing duty
+反腐倡廉$combat corruption and build a clean government
+反倾销措施$anti-dumping measures against
+泛士通轮胎$Firestone tires
+防抱死系统$ABS (anti-lock braking system)||anti-lock braking system
+防盗门$burglarproof door||antitheft door
+防洪工程$flood-prevention project
+防伪标志$anti-fake label
+房产估价师$real estate evaluator
+房产证$property ownership certificate
+房产置换$buy or exchange houses
+房虫儿$real estate speculator
+房管$real estate management
+房权证$property right certificate
+放高球$lob
+放心店$trustworthy shop
+放心肉$quality-assured meat
+放行单$release permit
+非劳动收入$Income not from work
+非配额产品$quota-free products
+废电池$used batteries
+费改税$transform administrative fees into taxes
+费改税改革$tax-for-fees reform
+分拆上市$A subsidiary company of a corporation is listed on the stock market
+分流$reposition of redundant personnel||divide
+分税制$system of tax distribution
+分业经营$divided operation/ management
+粉领$Pink-collar
+丰富民主形式$Develop diverse forms of democracy
+风险防范机制$a risk prevention mechanism
+风险基金$VC funds
+风险准备金$loan loss provision, provisions of risk
+封闭式基金$close-ended fund
+封杀出局$force out
+封圣$canonization of ""Saints
+疯牛病$mad cow disease||bovine spongiform enceohalopathy (BSE)
+锋利扣杀$razor-sharp smash
+扶贫$poverty alleviation||help the poor
+扶贫办公室$Poverty Relief Office
+服务特色$selling point
+服务行业$catering industry||service trade
+浮动工资$floating wages||fluctuating wages
+福利彩票$welfare lotteries
+福利分房$welfare-oriented public housing distribution system
+附加税$additional tax||surtax||supertax
+附加意外险$supplemental accident insurance
+附加值$added value
+复读机$repeater
+复关$rejoin the GATT (General Agreement on Tariff and Trade)
+复合型人才$inter-disciplinary talent
+复式住宅$duplex apartment||compound apartment (a type of residential housing that maximizes usable space by increasing the number of the storey building)
+富贵病$rich man's disease (which calls for a long period of rest and expensive diet)
+覆盖率$coverage rate
+改制上市$An enterprise is re-organized according to modern corporate system so that it will get listed on the stock market
+干细胞$stem cell
+糟糕$pretty pass||terrible
+感到不妙$I smell a rat
+感情投资$emotion invest
+感谢款待的信$a bread and butter letter (a letter sent as thanks for being treated well as someone's guest)
+岗位津贴$allowance for a certain post
+岗位培训$on-the-job training
+港人治港$Hong Kong people administering Hong Kong
+港务局$port office||harbor authority
+高产优质$high yield and high quality
+高度自治$high degree of autonomy
+高分低能$high scores and low abilities
+高峰$peak time||summit||peak||height
+高峰论坛$summit (forum)
+高干$high-ranking official||senior cadre
+高官会$Senior Officials Meeting (SOM)
+高级商务师$Certified Business Executive
+高级设备$sophisticated equipment
+高技术产业化$apply high technology to production
+高架公路$elevated highway||overhead road
+高架轻轨$elevated railway
+高考$university) entrance examination||entrance examination
+高科技板块$high-tech sector
+高难度动作$stunner, stunt
+高清晰度$high definition
+高手$master hand, expert||past master||master-hand||ace
+格列佛游记$Gulliver's Travels
+个股$individual share
+个人所得税$personal income tax
+个人信用制度$credit rating system
+个人演唱会$solo concert
+个体工商户$privately or individually-owned business
+个体经济$private economy||individual economy
+各大菜系$major styles of cooking
+各尽所能$let each person do his best||from each according to his ability||from each according to its ability
+各就位$On your marks
+各行各业$every walk of life||the various walds of life||all trades and professions
+根本政治制度$fundamental political system
+跟踪审计$follow-up auditing
+工笔$traditional Chinese realistic painting||traditional
+工程公司$engineering company
+工程验收$acceptance of work
+工商局$industrial and commercial bureau
+工商联营$combined management of industry and commerce
+工时$man-hour||work hour
+工薪阶层$salariat||state employee||salaried person
+工业园区$industrial park
+工资税$payroll tax
+工资削减$pay-cut
+公房商品化$commercialization of public housing
+公费旅游$junket||facility trip
+公费医疗$medical services at state expense||socialized medicine||free medicare
+公告板服务$Bulletin Board Service (BBS)
+公积金$public accumulation funds, public reserve funds||accumulation fund
+公检法$public security organs, procuratorial organs and people's courts||public security organs
+公开喊价市场$open outcry markets
+公款吃喝$recreational activities using public funds
+公司犯罪$corporate abuse / crime / cheat / fraud / wrongdoing / misconduct
+公务员$civil servants||governmental employee||officer||civil service
+公休$sabbatical leave||general holiday||official holiday
+公益活动$public benefit activities
+公益林$public welfare forest
+公证财产$notarize the properties
+恭喜发财$May you be prosperous!||Wish you prosperity
+共同富裕$common prosperity
+狗仔队$dog packs||paparazzo (singular), paparazzi(plural) (It refers to those journalists who are hunting the news of celebrities.)||paparazzi
+购买力$purchasing power
+股本回报率$return on equity
+股份合作制$shareholding cooperative system
+股份制$shareholding system||joint-stock system
+股民$investor
+股票期权$the stock option
+股市行情$the ups and downs of the stock market
+骨干企业$key enterprise
+固定资产投资$investment in the fixed assets
+挂靠$be attached or affiliated to||be subordinate to
+挂靠户$an unct organization
+挂职$take a temporary post (in order to temper oneself)||2) serve in a lower level unit for a period while retaining one's position in the previous unit
+挂职下放$transfer to lower units with one's post retained
+关联交易$connected transaction
+关税壁垒$customs barrier||tariff wall
+关税配额$tariff quota
+关停并转$close down, suspend operation, merge with others or shift to different line of production||rationalize
+观光电梯$sightseeing (tourist) lift
+官商$state-operated commerce||state enterprise
+光谷$optical valley
+光机电一体化$optical, mechanical and electronic integration
+光盘杂志$CD-ROM magazine
+光通讯$photo-communication||optical communication
+广播电视大学$radio and television university
+广告词$jingle
+广告电话直销$direct response advertising
+广告妙语$attention-getter
+广告人$advertising man||adman||advertizer
+广告宣传车$loudspeaker van||sound truck
+归国留学生$returned students
+归口管理$put under centralized management by specialized departments||centralized management by specified departments
+规避$circumvention||avoid
+规范分配秩序$Rationalize the relations of income distribution
+规模经济$scale economy, economies of scale
+规模效益$scale merit
+皈依三宝$become a Buddhist
+国产化率$import substitution rate||localization rate of parts and components
+国防动员体制$the mobilization for national defense
+国际惯例$international common practice||international conventions
+国际海域$international waters
+国际化战略$internationalization strategy
+国际劳工组织$ILO (International Labor Organization)||international labour organization
+国际清算$international settlement
+国际足球联盟$Federation Internationale de Football Association (FIFA)
+国家创新体系$state innovation system
+国家环保总局$State Environmental Protection Administration
+国家控股公司$state-controlling company
+国家体育总局$State Physical Culture Administration
+国家一级保护$first-grade State protection
+国脚$player of the national football team||footballer of the national team||national champion in football
+国民党$Kuomintang||nationalist party||the Kuomintang
+国土局$Land and Resources Bureau
+国有股$state-owned shares
+国有股减持$state stock reduction||reduce state's stake in listed companies
+国有资产流失$loss of state assets
+国债贴息贷款$T-bond discount loans
+国债投资$treasury bond investment
+国债专项资金$special fund for treasury bond
+过度开垦$excess reclamation
+过劳死$karoshi||death from overwork
+过山车$roller coaster
+过失责任$liability of fault
+过犹不及$going too far is as bad as not going far enough||beyond is as wrong as falling short||too much is as bad as too little||go too far is as bad not going far enough
+海关完税价值$customs value
+海量存储$mass memory
+海上救助船$salvage ship
+函授大学$correspondence university||correspondence college
+寒带$frigid zone||polar climate
+汉字处理软件$Chinese character processing software
+旱地滑雪场$mock skiing park
+航母$aircraft carrier
+豪赌$unrestrained gambling
+好莱坞大片$Hollywood blockbuster
+好球$Strike||good shot||bravo
+恶事传千里$Good news never goes beyond the gate, while bad news spread far and wide
+合理引导消费$guide rational consumption
+合业经营$combined operation/ management
+合议庭$collegiate bench
+和服$Kimono||kimono
+和平演变$peaceful evolution
+和气生财$Harmony brings wealth
+河道整治$dredging waterway
+核军火库$nuclear arsenal
+核武器数量$Nuclear Arsenal Size
+核销$cancel after verification
+核心竞争力$core competitiveness
+盒饭$packed meal||box lunch||box meal
+贺岁片$New Year's Film
+黑车$black taxi (a taxi that carries passengers illegally and without a business license)
+黑店$gangster inn||an inn run by brigands
+黑客$hacker
+黑哨$black whistle
+黑社会$Mafia-style organizations||gangland||black society||criminal organization
+黑心棉$shoddy cotton
+红白喜事$wedding and funeral||wedding and funerals
+红股$bonus share
+红马甲$floor broker||floor trader
+红旗单位$advanced (model) establishment
+红细胞生成素$Erythropoietin (EPO)
+宏观调控$macro-control
+鸿门宴$Hongmen banquet--a feast or meeting set up as a trap for the invited||a dinner party intended to kill the guests||feast at hong gate
+喉舌$mouthpiece
+后备工业$supporting industry
+后防空虚$leave the defense exposed
+后台管理$back-stage management
+后续投资$follow-up investment
+候选城市$the candidate cities
+呼叫等待$call waiting
+呼叫转移$call forwarding
+呼啦圈$hu la hoop
+胡同串子$peddler||hawker
+胡子工程$long-drawn-out project (a project which takes so long that young workers become bearde
+虎父无犬子$A wise goose never lays a tame egg
+互动广告$interactive advertisement
+互动演示$interactive demonstration
+户口簿$residence booklet||household register
+户口管理制度$domicile system, residence registration system
+户主$head of a household
+护身法宝$amulet
+花旗银行$National City Bank of New York||citibank
+花样游泳$water ballet||synchronized swimming
+华表$ornamental column/cloud pillar/stele||ornamental columns erected in front of palaces, tombs, etc
+华盖$canopy||baldachin
+滑板车$scooter
+画中画$picture-in-picture (PIP)
+坏球$Ball
+坏帐$bad account
+还俗$resume secular life, unfrock||secularization
+环保电池$environment-friendly battery
+环保型技术$EST(Environmentally-sound technology)
+环境保护$protect the environment||environmental protection||environmental movement
+环绕立体声$surround
+环太平洋地区$Pacific Rim
+换届选举$election at expiration of office terms
+换手率$turnover rate
+黄、赌、毒$pornography, gambling and drug abuse and trafficking
+黄金时段$prime time
+因此得名$Gray-collar (Skilled technicians||employees whose job descriptions combine some white- and some blue-collar duties.)
+灰色经济$grey economy||underground economy
+灰色区域措施$Grey area measures
+灰色收入$gray income
+回头客$returned customer
+回头率$rate of second glance
+汇丰银行$Hong Kong and Shang Hai Banking Corporation
+会计电算化$accounting computerization
+会考$unified examination||general examination||unified exams
+婚介所$matrimonial agency
+婚前同居$premarital cohabit
+婚前协议$prenuptial agreement
+婚纱摄影$wedding photo
+婚外恋$extramarital love||love out of wedlock
+混合型卷烟$blended type cigarette
+混业经营$mixed operation/ management
+学到老$One is never too old to learn
+火炬计划$Torch Program (a plan to develop new and high technology)
+货币化$monetization
+货币回笼$withdrawal of currency from circulation
+货币留成制度$currency retention scheme
+机场建设费$airport construction fee
+机电产品$mechanical and electrical products
+机构投资者$institutional investor
+机构臃肿$overstaffing in organizations (government)
+机器阅卷$machine scoring
+积压产品$overstocked commodities (inventories)
